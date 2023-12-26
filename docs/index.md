@@ -3,6 +3,14 @@ Craig West - PythonTestEngineer.co.uk
 
 other text here
 
+## About
+
+thuis is about me
+
+## TEST_SUITE_00
+
+A basic site
+
 ## Commands
 
 * `mkdocs new [dir-name]` - Create a new project.
