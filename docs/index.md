@@ -1,6 +1,6 @@
-# Welcome to Sample Project Official Documentation
+# Python Test Framework
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+PythonTestEngineer.co.uk - Craig West
 
 ## Commands
 
