@@ -19,10 +19,29 @@ markdown_extensions:
       permalink: true
       separator: "_"
 
+# Customization
+extra_javascript:
+  - "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-MML-AM_CHTML"
+extra_css:
+  - "assets/css/custom.css"
+extra:
+  manifest: "manifest.json"
+  social:
+    - icon: "fontawesome/brands/github-alt"
+      link: "https://github.com/peaceiris"
+    - icon: "fontawesome/brands/twitter"
+      link: "https://twitter.com/piris314en"
+
 # Page tree
 nav:
   - "Home": "index.md"
-  - "Material for MkDocs": "material-for-mkdocs.md"
+  - "Craig":
+      - "craig/index.md"
+      - "craig/deployment.md"
+      - "craig/configuration.md"
+      - "craig/example.md"
+      - "craig/install.md"
+      - "craig/release_notes.md"
   - "Getting started":
       - "Download boilerplate": "getting-started/download-boilerplate.md"
       - "pipenv": "getting-started/pipenv.md"
@@ -39,4 +58,3 @@ nav:
       - "MathJax": "extensions/mathjax.md"
       - "Code Hilite": "extensions/code-hilite.md"
       - "Footnote": "extensions/footnote.md"
-  - "License": "license.md"
