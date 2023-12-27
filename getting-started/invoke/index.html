@@ -8,21 +8,25 @@
       
       
       
-        <link rel="canonical" href="https://python-test-engineer.github.io/configuration/">
+        <link rel="canonical" href="https://python-test-engineer.github.io/getting-started/invoke/">
       
       
+        <link rel="prev" href="../pipenv/">
       
       
-      <link rel="icon" href="../assets/images/favicon.png">
+        <link rel="next" href="../docker/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.3">
     
     
       
-        <title>Configuration - Python Test Framework</title>
+        <title>invoke - Python Test Framework</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.50c56a3b.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.50c56a3b.min.css">
       
       
 
@@ -41,7 +45,7 @@
       
     
     
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -60,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#configuration" class="md-skip">
+        <a href="#serve_and_open_with_invoke" class="md-skip">
           Skip to content
         </a>
       
@@ -76,7 +80,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="Python Test Framework" class="md-header__button md-logo" aria-label="Python Test Framework" data-md-component="logo">
+    <a href="../.." title="Python Test Framework" class="md-header__button md-logo" aria-label="Python Test Framework" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -96,7 +100,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Configuration
+              invoke
             
           </span>
         </div>
@@ -171,7 +175,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="Python Test Framework" class="md-nav__button md-logo" aria-label="Python Test Framework" data-md-component="logo">
+    <a href="../.." title="Python Test Framework" class="md-nav__button md-logo" aria-label="Python Test Framework" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -189,7 +193,7 @@
   
   
     <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -209,7 +213,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../material-for-mkdocs.md" class="md-nav__link">
+      <a href="../../material-for-mkdocs.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -226,19 +230,21 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
@@ -252,7 +258,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Getting started
@@ -266,7 +272,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../getting-started/download-boilerplate/" class="md-nav__link">
+      <a href="../download-boilerplate/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -287,7 +293,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../getting-started/pipenv/" class="md-nav__link">
+      <a href="../pipenv/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -305,10 +311,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../getting-started/invoke/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    invoke
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -317,6 +343,53 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#invoke" class="md-nav__link">
+    <span class="md-ellipsis">
+      invoke
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#serve_and_open" class="md-nav__link">
+    <span class="md-ellipsis">
+      Serve and open
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#show_all_tasks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Show all tasks
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -329,7 +402,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../getting-started/docker/" class="md-nav__link">
+      <a href="../docker/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -350,7 +423,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../getting-started/pip/" class="md-nav__link">
+      <a href="../pip/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -415,7 +488,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../hosting-and-deployment/combinations/" class="md-nav__link">
+      <a href="../../hosting-and-deployment/combinations/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -436,7 +509,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../hosting-and-deployment/netlify/" class="md-nav__link">
+      <a href="../../hosting-and-deployment/netlify/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -457,7 +530,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../hosting-and-deployment/github-pages/" class="md-nav__link">
+      <a href="../../hosting-and-deployment/github-pages/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -478,7 +551,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../hosting-and-deployment/gitlab-pages/" class="md-nav__link">
+      <a href="../../hosting-and-deployment/gitlab-pages/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -499,7 +572,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../hosting-and-deployment/aws-amplify-console/" class="md-nav__link">
+      <a href="../../hosting-and-deployment/aws-amplify-console/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -564,7 +637,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../extensions/mathjax/" class="md-nav__link">
+      <a href="../../extensions/mathjax/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -585,7 +658,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../extensions/code-hilite/" class="md-nav__link">
+      <a href="../../extensions/code-hilite/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -606,7 +679,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../extensions/footnote/" class="md-nav__link">
+      <a href="../../extensions/footnote/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -634,7 +707,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../license.md" class="md-nav__link">
+      <a href="../../license.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -674,27 +747,27 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#configuration_-_part_1" class="md-nav__link">
+  <a href="#invoke" class="md-nav__link">
     <span class="md-ellipsis">
-      Configuration - part 1
+      invoke
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#configuration_-_part_2" class="md-nav__link">
+  <a href="#serve_and_open" class="md-nav__link">
     <span class="md-ellipsis">
-      Configuration - part 2
+      Serve and open
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#configuration_-_part_3" class="md-nav__link">
+  <a href="#show_all_tasks" class="md-nav__link">
     <span class="md-ellipsis">
-      Configuration - part 3
+      Show all tasks
     </span>
   </a>
   
@@ -715,48 +788,46 @@
                   
 
 
-<h1 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Permanent link">&para;</a></h1>
-<h2 id="configuration_-_part_1">Configuration - part 1<a class="headerlink" href="#configuration_-_part_1" title="Permanent link">&para;</a></h2>
-<p>Lorem markdownum. Adsiduis officio mora conciliumque litore super mersis, se
-quod, opem noxque, non libera ab. Infra opus peregit non. Et hanc nostra minatur
-Seriphon non pronus inde <strong>membra</strong>, mea <em>sumpto apulus</em> ad aura qualis. Quem
-vetustos, iam atque fretum namque ex cauda, per vultu me flavum temperius
-maculoso possum <strong>raptoresque</strong>.</p>
-<p><strong>Perspice et equo</strong> fulgura, aut gaudet sunt dumque niveum, fugitque abstrahor
-saxis fulmineis est esse. Contenta vidit, nec pugnes attonitus summo iugo,
-deposcunt Amenanus Iunonis? Quaesitamque motae nec: terras heros semper nuper,
-<a href="http://stupet.com/propiusquepartem.php">et inpono gradus</a>, ab.</p>
-<h2 id="configuration_-_part_2">Configuration - part 2<a class="headerlink" href="#configuration_-_part_2" title="Permanent link">&para;</a></h2>
-<p>Tum quae convicia studiis: faxo cunas visa clarus, quondam, prius. Novi nata
-dedit, Poemenis trementi haruspex prodere fontem: e. Nova nubes bracchia aras
-squamas moraque <em>ad segetes</em> remoto.</p>
-<div class="codehilite"><pre><span></span><code>&gt;<span class="w"> </span>Modo<span class="w"> </span>dira<span class="w"> </span>nostroque<span class="w"> </span>congreditur<span class="w"> </span>patria<span class="w"> </span>si<span class="w"> </span>corpus<span class="w"> </span>insidior<span class="w"> </span>illam<span class="w"> </span>lusibus<span class="w"> </span>per
-&gt;<span class="w"> </span>vim<span class="w"> </span>relinquunt<span class="w"> </span>talia.<span class="w"> </span>Per<span class="w"> </span>an<span class="w"> </span>supremo<span class="w"> </span>gaudet<span class="w"> </span>latices<span class="w"> </span>*Melaneus*<span class="w"> </span>latuerunt<span class="w"> </span>tibi
-&gt;<span class="w"> </span>petebar,<span class="w"> </span>Pirithoi<span class="w"> </span>spectacula.<span class="w"> </span>Et<span class="w"> </span>hectora<span class="w"> </span>limina,<span class="w"> </span>quaeque,<span class="w"> </span>hoc<span class="w"> </span>adde<span class="w"> </span>precor
-&gt;<span class="w"> </span>domosque,<span class="w"> </span>sed<span class="w"> </span><span class="k">in</span><span class="w"> </span>dieque,<span class="w"> </span>me<span class="w"> </span>pinnis<span class="w"> </span>desunt,<span class="w"> </span>cadunt.<span class="w"> </span>Nam<span class="w"> </span>fallacis<span class="w"> </span>isto<span class="w"> </span>talia
-&gt;<span class="w"> </span>tenues<span class="w"> </span>inferiusque<span class="w"> </span>non<span class="w"> </span>solito<span class="w"> </span>hic<span class="w"> </span>matre?<span class="w"> </span>Mirum<span class="w"> </span>at<span class="w"> </span>licet<span class="w"> </span>qui<span class="w"> </span>cuncta<span class="w"> </span>collo
-&gt;<span class="w"> </span><span class="o">[</span>deductus<span class="o">](</span>http://www.fraude-ignipedum.io/<span class="o">)</span><span class="w"> </span>animoque<span class="w"> </span>quoque.
+<h1 id="serve_and_open_with_invoke">Serve and open with invoke<a class="headerlink" href="#serve_and_open_with_invoke" title="Permanent link">&para;</a></h1>
+<h2 id="invoke">invoke<a class="headerlink" href="#invoke" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p>Invoke is a Python (2.7 and 3.4+) library for managing shell-oriented subprocesses and organizing executable Python code into CLI-invokable tasks. It draws inspiration from various sources (make/rake, Fabric 1.x, etc) to arrive at a powerful &amp; clean feature set.</p>
+</blockquote>
+<ul>
+<li><a href="https://github.com/pyinvoke/invoke">pyinvoke/invoke: Pythonic task management &amp; command execution.</a></li>
+</ul>
+<h2 id="serve_and_open">Serve and open<a class="headerlink" href="#serve_and_open" title="Permanent link">&para;</a></h2>
+<p>Run <code>mkdocs serve</code> and open browser automatically.</p>
+<div class="codehilite"><pre><span></span><code>inv<span class="w"> </span>serve
 </code></pre></div>
 
-<p>Tamen tenebras sit vacuas ire fecerat deus reddidit sonantia, mite <strong>sorores</strong>,
-surrexit removente iussa et, ne. Verba malorum Lycias tempestiva irae ex mentes
-illo durasse Proteus genitore habes; Phoebes doloris, <strong>et rara</strong>.</p>
-<h2 id="configuration_-_part_3">Configuration - part 3<a class="headerlink" href="#configuration_-_part_3" title="Permanent link">&para;</a></h2>
-<p>Inque inmurmurat at prodere: o viri corpora nuper, ut calido certa <strong>cum</strong>.
-Ilios enim iam iniustaque fonti, ab torva. Auro precor <em>solebat</em> vincla
-septemplice ultra errore crescens nomina dextraque annis
-<a href="http://www.imaginenostris.org/">praetemptatque</a> carpitque protinus dextra,
-exanimem, fatentis. Maris rates, et <strong>fugant et</strong> pia aera rumpere arces
-<a href="http://undas-animosque.io/pocula">laesasque</a>, ira silvas quem ministri variatis
-Cerberon videntem si.</p>
-<blockquote>
-<p>Aureus in tellus deplanxere facti se tuus sive, cecidere quisque, variare
-pulsatus. Non in gentesque funera <em>sufficiunt detractare illo</em> perlucentibus
-<a href="http://morte.io/pabulaaltismunera">atlas</a> vel reperta non insula.</p>
-</blockquote>
-<p>Noctis tamen. Ora facta armo montis iussae Busirin in flammae inanes.</p>
-<p>Pia fuerunt movit, terra turba mentis quem cinis cladem, madidum labor ponit
-clavam. Imo vitamque: diem cum ore intravit pro filia Aiax.</p>
+<p>Serving on <a href="http://localhost:8000">localhost:8000</a></p>
+<div class="codehilite"><pre><span></span><code><span class="c1"># set IP and port</span>
+inv<span class="w"> </span>serve<span class="w"> </span>--dev-addr<span class="w"> </span><span class="s1">&#39;localhost:5000&#39;</span>
+<span class="c1"># set config file</span>
+inv<span class="w"> </span>serve<span class="w"> </span>--config-file<span class="w"> </span>./mkdocs-sample.yml
+</code></pre></div>
+
+<h2 id="show_all_tasks">Show all tasks<a class="headerlink" href="#show_all_tasks" title="Permanent link">&para;</a></h2>
+<div class="codehilite"><pre><span></span><code>$<span class="w"> </span>inv<span class="w"> </span>--list
+Available<span class="w"> </span>tasks:
+
+<span class="w">  </span>serve<span class="w">    </span>Serve<span class="w"> </span>site<span class="w"> </span>and<span class="w"> </span>open<span class="w"> </span>browser
+</code></pre></div>
+
+<p>Show task help.</p>
+<div class="codehilite"><pre><span></span><code>$<span class="w"> </span>inv<span class="w"> </span>serve<span class="w"> </span>--help
+Usage:<span class="w"> </span>inv<span class="o">[</span>oke<span class="o">]</span><span class="w"> </span><span class="o">[</span>--core-opts<span class="o">]</span><span class="w"> </span>serve<span class="w"> </span><span class="o">[</span>--options<span class="o">]</span><span class="w"> </span><span class="o">[</span>other<span class="w"> </span>tasks<span class="w"> </span>here<span class="w"> </span>...<span class="o">]</span>
+
+Docstring:
+<span class="w">  </span>Serve<span class="w"> </span>site<span class="w"> </span>and<span class="w"> </span>open<span class="w"> </span>browser
+
+Options:
+<span class="w">  </span>-c<span class="w"> </span>STRING,<span class="w"> </span>--config-file<span class="o">=</span>STRING<span class="w">   </span>Provide<span class="w"> </span>a<span class="w"> </span>specific<span class="w"> </span>MkDocs<span class="w"> </span>config
+<span class="w">  </span>-d<span class="w"> </span>STRING,<span class="w"> </span>--dev-addr<span class="o">=</span>STRING<span class="w">      </span>IP<span class="w"> </span>address<span class="w"> </span>and<span class="w"> </span>port<span class="w"> </span>to<span class="w"> </span>serve<span class="w"> </span>documentation<span class="w"> </span>locally<span class="w"> </span><span class="o">(</span>default:<span class="w"> </span>localhost:8000<span class="o">)</span>
+</code></pre></div>
+
+<p>Tasks are defined by <a href="https://github.com/peaceiris/mkdocs-material-boilerplate/blob/main/tasks.py">tasks.py</a></p>
 
 
 
@@ -803,10 +874,10 @@ clavam. Imo vitamque: diem cum ore intravit pro filia Aiax.</p>
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.d7c377c4.min.js"></script>
+      <script src="../../assets/javascripts/bundle.d7c377c4.min.js"></script>
       
     
   </body>
