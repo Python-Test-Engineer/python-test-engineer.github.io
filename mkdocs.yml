@@ -29,7 +29,7 @@ theme:
         name: Switch to dark mode
 
       primary: purple
-      accent: orange
+      accent: purple
     - scheme: slate
       toggle:
         icon: material/brightness-4
