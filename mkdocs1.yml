@@ -2,18 +2,11 @@ site_name: Python Test Framework
 site_url: https://python-test-engineer.github.io
 
 # Configuring a theme
-# theme:
-#   name: material
-#   features:
-# - navigation.tabs
-# - navigation.sections
-
-# Configuring a theme
 theme:
   name: material
   features:
-    # - navigation.tabs
-    # - navigation.sections
+    - navigation.tabs
+    - navigation.sections
     - toc.integrate
     - navigation.top
     - search.suggest
@@ -27,14 +20,15 @@ theme:
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
-      primary: purple
-      accent: orange
+      primary: teal
+      accent: purple
     - scheme: slate
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
-      primary: purple
-      accent: orange
+      primary: teal
+      accent: lime
+
 # Extensions
 markdown_extensions:
   - admonition
@@ -55,9 +49,9 @@ extra:
   manifest: "manifest.json"
   social:
     - icon: "fontawesome/brands/github-alt"
-      link: "https://github.com/peaceiris"
-    - icon: "fontawesome/brands/twitter"
-      link: "https://twitter.com/piris314en"
+      link: "https://github.com/Python-Test-Engineer"
+    # - icon: "fontawesome/brands/twitter"
+    #   link: "https://twitter.com/piris314en"
 
 # Page tree
 nav:
@@ -85,3 +79,6 @@ nav:
       - "MathJax": "extensions/mathjax.md"
       - "Code Hilite": "extensions/code-hilite.md"
       - "Footnote": "extensions/footnote.md"
+
+copyright: |
+  &copy; 2024 <a href="https://github.com/Python-Test-Engineer"  target="_blank" rel="noopener">Craig West</a>
