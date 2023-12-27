@@ -63,29 +63,31 @@ extra:
 # Page tree
 nav:
   - "Home": "index.md"
-  - "Craig":
+
+  - "Django Testing":
+      - "MathJax": "django_testing/mathjax.md"
+      - "Code Hilite": "django_testing/code-hilite.md"
+      - "Footnote": "django_testing/footnote.md"
+  - "PyTest":
+      - "Download boilerplate": "pytest/download-boilerplate.md"
+      - "pipenv": "pytest/pipenv.md"
+      - "invoke": "pytest/invoke.md"
+      - "Docker": "pytest/docker.md"
+      - "pip": "pytest/pip.md"
+  - "Playwright and API":
+      - "Combinations": "paywright_api/combinations.md"
+      - "Netlify": "paywright_api/netlify.md"
+      - "GitHub Pages": "paywright_api/github-pages.md"
+      - "GitLab Pages": "paywright_api/gitlab-pages.md"
+      - "AWS Amplify Console": "paywright_api/aws-amplify-console.md"
+  - "Hypothes":
+      - "About": "hypothesis/index.md"
+  - "About Craig":
       - "craig/index.md"
       - "craig/deployment.md"
       - "craig/configuration.md"
       - "craig/example.md"
       - "craig/install.md"
       - "craig/release_notes.md"
-  - "Getting started":
-      - "Download boilerplate": "getting-started/download-boilerplate.md"
-      - "pipenv": "getting-started/pipenv.md"
-      - "invoke": "getting-started/invoke.md"
-      - "Docker": "getting-started/docker.md"
-      - "pip": "getting-started/pip.md"
-  - "Hosting and Deployment":
-      - "Combinations": "hosting-and-deployment/combinations.md"
-      - "Netlify": "hosting-and-deployment/netlify.md"
-      - "GitHub Pages": "hosting-and-deployment/github-pages.md"
-      - "GitLab Pages": "hosting-and-deployment/gitlab-pages.md"
-      - "AWS Amplify Console": "hosting-and-deployment/aws-amplify-console.md"
-  - "Extensions":
-      - "MathJax": "extensions/mathjax.md"
-      - "Code Hilite": "extensions/code-hilite.md"
-      - "Footnote": "extensions/footnote.md"
-
 copyright: |
   &copy; 2024 <a href="https://github.com/Python-Test-Engineer"  target="_blank" rel="noopener">Craig West</a>

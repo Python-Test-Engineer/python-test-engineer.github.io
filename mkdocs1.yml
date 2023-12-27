@@ -63,22 +63,22 @@ nav:
       - "craig/example.md"
       - "craig/install.md"
       - "craig/release_notes.md"
-  - "Getting started":
+  - "Django Testing":
+      - "MathJax": "extensions/mathjax.md"
+      - "Code Hilite": "extensions/code-hilite.md"
+      - "Footnote": "extensions/footnote.md"
+  - "PyTest":
       - "Download boilerplate": "getting-started/download-boilerplate.md"
       - "pipenv": "getting-started/pipenv.md"
       - "invoke": "getting-started/invoke.md"
       - "Docker": "getting-started/docker.md"
       - "pip": "getting-started/pip.md"
-  - "Hosting and Deployment":
+  - "Playwright and Amplify":
       - "Combinations": "hosting-and-deployment/combinations.md"
       - "Netlify": "hosting-and-deployment/netlify.md"
       - "GitHub Pages": "hosting-and-deployment/github-pages.md"
       - "GitLab Pages": "hosting-and-deployment/gitlab-pages.md"
       - "AWS Amplify Console": "hosting-and-deployment/aws-amplify-console.md"
-  - "Extensions":
-      - "MathJax": "extensions/mathjax.md"
-      - "Code Hilite": "extensions/code-hilite.md"
-      - "Footnote": "extensions/footnote.md"
 
 copyright: |
   &copy; 2024 <a href="https://github.com/Python-Test-Engineer"  target="_blank" rel="noopener">Craig West</a>
