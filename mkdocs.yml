@@ -75,11 +75,10 @@ nav:
       - "Docker": "pytest/docker.md"
       - "pip": "pytest/pip.md"
   - "Playwright and API":
-      - "Combinations": "paywright_api/combinations.md"
-      - "Netlify": "paywright_api/netlify.md"
-      - "GitHub Pages": "paywright_api/github-pages.md"
-      - "GitLab Pages": "paywright_api/gitlab-pages.md"
-      - "AWS Amplify Console": "paywright_api/aws-amplify-console.md"
+      - "Testing Playgrounds": "playwright_api/testing_playgrounds.md"
+      - "API": "playwright_api/api.md"
+      - "Playwright": "playwright_api/playwright.md"
+
   - "Hypothes":
       - "About": "hypothesis/index.md"
   - "About Craig":
