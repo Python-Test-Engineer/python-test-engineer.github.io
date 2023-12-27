@@ -46,67 +46,72 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://python-test-engineer.github.io/extensions/code-hilite/</loc>
+         <loc>https://python-test-engineer.github.io/django_testing/code-hilite/</loc>
          <lastmod>2023-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://python-test-engineer.github.io/extensions/footnote/</loc>
+         <loc>https://python-test-engineer.github.io/django_testing/footnote/</loc>
          <lastmod>2023-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://python-test-engineer.github.io/extensions/mathjax/</loc>
+         <loc>https://python-test-engineer.github.io/django_testing/mathjax/</loc>
          <lastmod>2023-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://python-test-engineer.github.io/getting-started/docker/</loc>
+         <loc>https://python-test-engineer.github.io/hypothesis/</loc>
          <lastmod>2023-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://python-test-engineer.github.io/getting-started/download-boilerplate/</loc>
+         <loc>https://python-test-engineer.github.io/playwright_api/aws-amplify-console/</loc>
          <lastmod>2023-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://python-test-engineer.github.io/getting-started/invoke/</loc>
+         <loc>https://python-test-engineer.github.io/playwright_api/combinations/</loc>
          <lastmod>2023-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://python-test-engineer.github.io/getting-started/pip/</loc>
+         <loc>https://python-test-engineer.github.io/playwright_api/github-pages/</loc>
          <lastmod>2023-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://python-test-engineer.github.io/getting-started/pipenv/</loc>
+         <loc>https://python-test-engineer.github.io/playwright_api/gitlab-pages/</loc>
          <lastmod>2023-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://python-test-engineer.github.io/hosting-and-deployment/aws-amplify-console/</loc>
+         <loc>https://python-test-engineer.github.io/playwright_api/netlify/</loc>
          <lastmod>2023-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://python-test-engineer.github.io/hosting-and-deployment/combinations/</loc>
+         <loc>https://python-test-engineer.github.io/pytest/docker/</loc>
          <lastmod>2023-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://python-test-engineer.github.io/hosting-and-deployment/github-pages/</loc>
+         <loc>https://python-test-engineer.github.io/pytest/download-boilerplate/</loc>
          <lastmod>2023-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://python-test-engineer.github.io/hosting-and-deployment/gitlab-pages/</loc>
+         <loc>https://python-test-engineer.github.io/pytest/invoke/</loc>
          <lastmod>2023-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://python-test-engineer.github.io/hosting-and-deployment/netlify/</loc>
+         <loc>https://python-test-engineer.github.io/pytest/pip/</loc>
+         <lastmod>2023-12-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://python-test-engineer.github.io/pytest/pipenv/</loc>
          <lastmod>2023-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
