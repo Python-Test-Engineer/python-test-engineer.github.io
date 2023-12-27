@@ -5,7 +5,8 @@ site_url: https://python-test-engineer.github.io
 theme:
   name: material
   features:
-    - navigation.tabs
+    # - navigation.tabs
+    # - navigation.sections
 
 # Extensions
 markdown_extensions:
