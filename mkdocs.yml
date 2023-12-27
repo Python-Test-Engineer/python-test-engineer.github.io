@@ -4,6 +4,8 @@ site_url: https://python-test-engineer.github.io
 # Configuring a theme
 theme:
   name: material
+  features:
+    - navigation.tabs
 
 # Extensions
 markdown_extensions:
