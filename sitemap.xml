@@ -66,27 +66,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://python-test-engineer.github.io/playwright_api/aws-amplify-console/</loc>
+         <loc>https://python-test-engineer.github.io/playwright_api/api/</loc>
          <lastmod>2023-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://python-test-engineer.github.io/playwright_api/combinations/</loc>
+         <loc>https://python-test-engineer.github.io/playwright_api/playwright/</loc>
          <lastmod>2023-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://python-test-engineer.github.io/playwright_api/github-pages/</loc>
-         <lastmod>2023-12-27</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://python-test-engineer.github.io/playwright_api/gitlab-pages/</loc>
-         <lastmod>2023-12-27</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://python-test-engineer.github.io/playwright_api/netlify/</loc>
+         <loc>https://python-test-engineer.github.io/playwright_api/testing_playgrounds/</loc>
          <lastmod>2023-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
