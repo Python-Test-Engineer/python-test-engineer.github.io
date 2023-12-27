@@ -6,37 +6,42 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://python-test-engineer.github.io/configuration/</loc>
+         <loc>https://python-test-engineer.github.io/craig/</loc>
          <lastmod>2023-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://python-test-engineer.github.io/deployment/</loc>
+         <loc>https://python-test-engineer.github.io/craig/configuration/</loc>
          <lastmod>2023-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://python-test-engineer.github.io/development/</loc>
+         <loc>https://python-test-engineer.github.io/craig/deployment/</loc>
          <lastmod>2023-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://python-test-engineer.github.io/example/</loc>
+         <loc>https://python-test-engineer.github.io/craig/development/</loc>
          <lastmod>2023-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://python-test-engineer.github.io/install/</loc>
+         <loc>https://python-test-engineer.github.io/craig/example/</loc>
          <lastmod>2023-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://python-test-engineer.github.io/introduction/</loc>
+         <loc>https://python-test-engineer.github.io/craig/install/</loc>
          <lastmod>2023-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://python-test-engineer.github.io/release_notes/</loc>
+         <loc>https://python-test-engineer.github.io/craig/introduction/</loc>
+         <lastmod>2023-12-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://python-test-engineer.github.io/craig/release_notes/</loc>
          <lastmod>2023-12-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
