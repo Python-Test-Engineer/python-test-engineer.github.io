@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://python-test-engineer.github.io/pytest/pipenv/">
+        <link rel="canonical" href="https://python-test-engineer.github.io/pytest/pytest_basic/">
       
       
-        <link rel="prev" href="../download-boilerplate/">
+        <link rel="prev" href="../../django_testing/tests/">
       
       
-        <link rel="next" href="../invoke/">
+        <link rel="next" href="../pytest/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -22,7 +22,7 @@
     
     
       
-        <title>pipenv - Python Test Framework</title>
+        <title>PyTest Basic - Python Test Framework</title>
       
     
     
@@ -76,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#start_with_pipenv" class="md-skip">
+        <a href="#download_boilerplate" class="md-skip">
           Skip to content
         </a>
       
@@ -112,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              pipenv
+              PyTest Basic
             
           </span>
         </div>
@@ -292,11 +292,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../../django_testing/mathjax/" class="md-nav__link">
+      <a href="../../django/about.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    MathJax
+    About
   </span>
   
 
@@ -313,11 +313,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../../django_testing/code-hilite/" class="md-nav__link">
+      <a href="../../django_testing/setup" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Code Hilite
+    Setup
   </span>
   
 
@@ -334,11 +334,32 @@
   
   
     <li class="md-nav__item">
-      <a href="../../django_testing/footnote/" class="md-nav__link">
+      <a href="../../django_testing/apps/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Footnote
+    Apps
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../django_testing/tests/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tests
   </span>
   
 
@@ -398,27 +419,6 @@
                 
   
   
-  
-  
-    <li class="md-nav__item">
-      <a href="../download-boilerplate/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Download boilerplate
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
     
   
   
@@ -435,7 +435,7 @@
           
   
   <span class="md-ellipsis">
-    pipenv
+    PyTest Basic
   </span>
   
 
@@ -446,7 +446,7 @@
         
   
   <span class="md-ellipsis">
-    pipenv
+    PyTest Basic
   </span>
   
 
@@ -468,36 +468,18 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#pipenv" class="md-nav__link">
+  <a href="#git_clone" class="md-nav__link">
     <span class="md-ellipsis">
-      pipenv
+      Git clone
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#install_all_packages" class="md-nav__link">
+  <a href="#download_zip" class="md-nav__link">
     <span class="md-ellipsis">
-      Install all packages
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#run_mkdocs" class="md-nav__link">
-    <span class="md-ellipsis">
-      Run MkDocs
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#pipenv_run" class="md-nav__link">
-    <span class="md-ellipsis">
-      pipenv run
+      Download zip
     </span>
   </a>
   
@@ -519,11 +501,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../invoke/" class="md-nav__link">
+      <a href="../pytest/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    invoke
+    PyTest
   </span>
   
 
@@ -540,11 +522,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../docker/" class="md-nav__link">
+      <a href="../tutorial_1/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Docker
+    Tutorial 1
   </span>
   
 
@@ -561,11 +543,32 @@
   
   
     <li class="md-nav__item">
-      <a href="../pip/" class="md-nav__link">
+      <a href="../tutorial_2/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    pip
+    Tutorial 2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mock_patch/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Mock and Patch
   </span>
   
 
@@ -812,111 +815,6 @@
 
               
             
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../craig/deployment/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Deployment
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../craig/configuration/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Configuration
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../craig/example/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Example
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../craig/install/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Install
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../craig/release_notes/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Release notes
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
           </ul>
         </nav>
       
@@ -939,36 +837,19 @@
                   
 
 
-<h1 id="start_with_pipenv">Start with pipenv<a class="headerlink" href="#start_with_pipenv" title="Permanent link">&para;</a></h1>
-<h2 id="pipenv">pipenv<a class="headerlink" href="#pipenv" title="Permanent link">&para;</a></h2>
-<blockquote>
-<p>Pipenv is a tool that aims to bring the best of all packaging worlds (bundler, composer, npm, cargo, yarn, etc.) to the Python world.</p>
-</blockquote>
-<ul>
-<li><a href="https://github.com/pypa/pipenv">pypa/pipenv: Python Development Workflow for Humans.</a></li>
-</ul>
-<h2 id="install_all_packages">Install all packages<a class="headerlink" href="#install_all_packages" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span><code>pipenv<span class="w"> </span>sync<span class="w"> </span>--dev<span class="w">  </span><span class="c1"># Installs all packages specified in Pipfile.lock.</span>
+<h1 id="download_boilerplate">Download boilerplate<a class="headerlink" href="#download_boilerplate" title="Permanent link">&para;</a></h1>
+<h2 id="git_clone">Git clone<a class="headerlink" href="#git_clone" title="Permanent link">&para;</a></h2>
+<div class="codehilite"><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/peaceiris/mkdocs-material-boilerplate.git
+<span class="nb">cd</span><span class="w"> </span>mkdocs-material-boilerplate
 </code></pre></div>
 
-<h2 id="run_mkdocs">Run MkDocs<a class="headerlink" href="#run_mkdocs" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span><code>pipenv<span class="w"> </span>shell<span class="w">  </span><span class="c1"># Spawns a shell within the virtualenv.</span>
-mkdocs<span class="w"> </span>serve
+<h2 id="download_zip">Download zip<a class="headerlink" href="#download_zip" title="Permanent link">&para;</a></h2>
+<div class="codehilite"><pre><span></span><code>wget<span class="w"> </span><span class="s1">&#39;https://github.com/peaceiris/mkdocs-material-boilerplate/archive/main.zip&#39;</span>
+unzip<span class="w"> </span>main.zip
+<span class="nb">cd</span><span class="w"> </span>mkdocs-material-boilerplate-main
 </code></pre></div>
 
-<p>Or, run <code>mkdocs</code> with <code>pipenv run</code></p>
-<div class="codehilite"><pre><span></span><code>pipenv<span class="w"> </span>run<span class="w"> </span>mkdocs<span class="w"> </span>serve
-</code></pre></div>
-
-<h2 id="pipenv_run"><code>pipenv run</code><a class="headerlink" href="#pipenv_run" title="Permanent link">&para;</a></h2>
-<p>pipenv task are also defined by <a href="https://github.com/peaceiris/mkdocs-material-boilerplate/blob/main/Pipfile">Pipfile</a></p>
-<div class="codehilite"><pre><span></span><code>pipenv<span class="w"> </span>run<span class="w"> </span>version<span class="w">    </span><span class="c1"># mkdocs --version</span>
-pipenv<span class="w"> </span>run<span class="w"> </span><span class="nb">help</span><span class="w">       </span><span class="c1"># mkdocs --help</span>
-pipenv<span class="w"> </span>run<span class="w"> </span>inv<span class="w"> </span>serve<span class="w">  </span><span class="c1"># inv serve</span>
-pipenv<span class="w"> </span>run<span class="w"> </span>serve<span class="w">      </span><span class="c1"># mkdocs serve</span>
-pipenv<span class="w"> </span>run<span class="w"> </span>build<span class="w">      </span><span class="c1"># mkdocs build</span>
-pipenv<span class="w"> </span>run<span class="w"> </span>deploy<span class="w">     </span><span class="c1"># mkdocs gh-deploy</span>
-</code></pre></div>
+<p>👉 <a href="https://github.com/peaceiris/mkdocs-material-boilerplate/archive/main.zip">Click me to download zip</a></p>
 
 
 
