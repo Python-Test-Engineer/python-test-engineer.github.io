@@ -2,6 +2,8 @@
 
 PythonTestEngineer.co.uk - Craig West
 
+![Logo](assets/images/logo.png){:style="width:120px;border-radius:50%;border: 5px solid red;"}
+
 ## Commands
 
 - `mkdocs new [dir-name]` - Create a new project.
