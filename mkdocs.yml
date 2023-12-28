@@ -58,7 +58,7 @@ extra:
   manifest: "manifest.json"
   social:
     - icon: "fontawesome/brands/github-alt"
-      link: "https://github.com/peaceiris"
+      link: "https://github.com/Python-Test-Engineer/"
     # - icon: "fontawesome/brands/twitter"
     #   link: "https://twitter.com/piris314en"
 
