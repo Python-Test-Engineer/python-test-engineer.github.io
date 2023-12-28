@@ -1,8 +1,15 @@
 
+<base target="_blank">
 
-PythonTestEngineer.co.uk - Craig West
+Craig West - [PythonTestEngineer.co.uk](http://pythontestengineer.co.uk)
+
+[Github CV](https://github.com/Python-Test-Engineer/)
+
+[Github Repo](https://github.com/Python-Test-Engineer/PYTHON-TEST-FRAMEWORK)
+
 
 ![Logo](assets/images/logo.png){:style="width:120px;border-radius:50%;border: 5px solid red;"}
+
 
 !!! info  
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
