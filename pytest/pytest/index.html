@@ -498,6 +498,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#tutorials" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tutorials
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#install" class="md-nav__link">
     <span class="md-ellipsis">
       Install
@@ -510,42 +519,6 @@
   <a href="#run_tests" class="md-nav__link">
     <span class="md-ellipsis">
       Run Tests
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tutorial_01" class="md-nav__link">
-    <span class="md-ellipsis">
-      Tutorial 01
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tutorial_02" class="md-nav__link">
-    <span class="md-ellipsis">
-      Tutorial 02
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#mock_and_patch" class="md-nav__link">
-    <span class="md-ellipsis">
-      Mock and Patch
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#resources" class="md-nav__link">
-    <span class="md-ellipsis">
-      Resources
     </span>
   </a>
   
@@ -615,7 +588,7 @@
         
   
   <span class="md-ellipsis">
-    TEST_SUITE_01
+    TEST_SUITE_02
   </span>
   
 
@@ -993,43 +966,25 @@
 
 <h1 id="pytest_-_test_suite_01">PyTest - TEST_SUITE_01<a class="headerlink" href="#pytest_-_test_suite_01" title="Permanent link">&para;</a></h1>
 <h2 id="about">About<a class="headerlink" href="#about" title="Permanent link">&para;</a></h2>
-<blockquote>
-<p>Pipenv is a tool that aims to bring the best of all packaging worlds (bundler, composer, npm, cargo, yarn, etc.) to the Python world.</p>
-</blockquote>
+<p>This has a large selection of tests, many linked to video series.</p>
+<h2 id="tutorials">Tutorials<a class="headerlink" href="#tutorials" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="https://github.com/pypa/pipenv">pypa/pipenv: Python Development Workflow for Humans.</a></li>
+<li>01_check_set_up to test wiring between src and tests folders.</li>
+<li>02_py_coffee is a very good series from <a href="https://www.youtube.com/playlist?list=PLxNPSjHT5qvuZ_JT1bknzrS8YqLiMjNpS" target="_blank">CoffeeBeforeArch</a>. The code samples are wired in here.</li>
+<li>03_indian_pythonista is another good series and most of the code samples are included. <a href="https://www.youtube.com/playlist?list=PLyb_C2HpOQSBWGekd7PfhHnb9GnqDgrxS" target="_blank">Indian Pythonista</a>.</li>
+<li>04 not included</li>
+<li>05_mocks_patch contains a range of templates for mocking and patching. Acknowledgements and links included.</li>
+<li>06_async has some templates for async testing</li>
 </ul>
 <h2 id="install">Install<a class="headerlink" href="#install" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span><code>pipenv<span class="w"> </span>sync<span class="w"> </span>--dev<span class="w">  </span><span class="c1"># Installs all packages specified in Pipfile.lock.</span>
-</code></pre></div>
-
-<h2 id="run_tests">Run Tests<a class="headerlink" href="#run_tests" title="Permanent link">&para;</a></h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam augue nisl, euismod et turpis a, ultrices rutrum mi. </p>
-<div class="codehilite"><pre><span></span><code>pipenv<span class="w"> </span>shell<span class="w">  </span><span class="c1"># Spawns a shell within the virtualenv.</span>
-mkdocs<span class="w"> </span>serve
-</code></pre></div>
-
-<p>Or, run <code>mkdocs</code> with <code>pipenv run</code></p>
-<div class="codehilite"><pre><span></span><code>pipenv<span class="w"> </span>run<span class="w"> </span>mkdocs<span class="w"> </span>serve
-</code></pre></div>
-
-<h2 id="tutorial_01">Tutorial 01<a class="headerlink" href="#tutorial_01" title="Permanent link">&para;</a></h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam augue nisl, euismod et turpis a, ultrices rutrum mi. Etiam pretium leo at mi fringilla, sit amet iaculis orci blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut libero placerat, sollicitudin ante non, molestie nisi. Cras at malesuada odio. Nullam libero quam, tempor in semper in, aliquam nec nulla. Sed luctus mi quis lorem faucibus fringilla. Morbi sit amet ante ac leo sollicitudin porta. Phasellus interdum nec neque eu placerat. Phasellus eget velit et tortor pretium vulputate vel vel nunc.</p>
-<p>In accumsan ligula lectus. Suspendisse potenti. Praesent tempor facilisis nisi, facilisis convallis eros tempor tempor. Donec quis urna pharetra nibh lobortis commodo sit amet a nunc. Suspendisse tempus lacinia leo at sollicitudin. In id vulputate orci, in pulvinar ligula. Morbi ac ex ut quam consequat tincidunt id eu elit. Mauris id nisi orci. Sed a velit enim. Aenean nec sem non purus vehicula maximus. Sed leo lorem, cursus sit amet massa ac, iaculis congue dui. Sed venenatis mollis dui eu pretium.
-```</p>
-<h2 id="tutorial_02">Tutorial 02<a class="headerlink" href="#tutorial_02" title="Permanent link">&para;</a></h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam augue nisl, euismod et turpis a, ultrices rutrum mi. Etiam pretium leo at mi fringilla, sit amet iaculis orci blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut libero placerat, sollicitudin ante non, molestie nisi. Cras at malesuada odio. Nullam libero quam, tempor in semper in, aliquam nec nulla. Sed luctus mi quis lorem faucibus fringilla. Morbi sit amet ante ac leo sollicitudin porta. Phasellus interdum nec neque eu placerat. Phasellus eget velit et tortor pretium vulputate vel vel nunc.</p>
-<p>In accumsan ligula lectus. Suspendisse potenti. Praesent tempor facilisis nisi, facilisis convallis eros tempor tempor. Donec quis urna pharetra nibh lobortis commodo sit amet a nunc. Suspendisse tempus lacinia leo at sollicitudin. In id vulputate orci, in pulvinar ligula. Morbi ac ex ut quam consequat tincidunt id eu elit. Mauris id nisi orci. Sed a velit enim. Aenean nec sem non purus vehicula maximus. Sed leo lorem, cursus sit amet massa ac, iaculis congue dui. Sed venenatis mollis dui eu pretium.</p>
-<h2 id="mock_and_patch">Mock and Patch<a class="headerlink" href="#mock_and_patch" title="Permanent link">&para;</a></h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam augue nisl, euismod et turpis a, ultrices rutrum mi. Etiam pretium leo at mi fringilla, sit amet iaculis orci blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut libero placerat, sollicitudin ante non, molestie nisi. Cras at malesuada odio. Nullam libero quam, tempor in semper in, aliquam nec nulla. Sed luctus mi quis lorem faucibus fringilla. Morbi sit amet ante ac leo sollicitudin porta. Phasellus interdum nec neque eu placerat. Phasellus eget velit et tortor pretium vulputate vel vel nunc.</p>
-<p>In accumsan ligula lectus. Suspendisse potenti. Praesent tempor facilisis nisi, facilisis convallis eros tempor tempor. Donec quis urna pharetra nibh lobortis commodo sit amet a nunc. Suspendisse tempus lacinia leo at sollicitudin. In id vulputate orci, in pulvinar ligula. Morbi ac ex ut quam consequat tincidunt id eu elit. Mauris id nisi orci. Sed a velit enim. Aenean nec sem non purus vehicula maximus. Sed leo lorem, cursus sit amet massa ac, iaculis congue dui. Sed venenatis mollis dui eu pretium.</p>
-<h2 id="resources">Resources<a class="headerlink" href="#resources" title="Permanent link">&para;</a></h2>
 <ul>
-<li>PyTest Book</li>
-<li>Article</li>
-<li>Article</li>
-<li>Article</li>
-<li>Article</li>
+<li>move to <code>TEST_SUITE_01</code> </li>
+<li>create virtual environment as you wish</li>
+<li>run <code>pip install requirements_01.txt</code></li>
+</ul>
+<h2 id="run_tests">Run Tests<a class="headerlink" href="#run_tests" title="Permanent link">&para;</a></h2>
+<ul>
+<li>run <code>python -m pytest -vs</code></li>
 </ul>
 
 
