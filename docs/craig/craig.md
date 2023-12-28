@@ -1,4 +1,12 @@
-<!--![TECH](https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80)-->
+
+<base target="_blank">
+
+Craig West - [PythonTestEngineer.co.uk](http://pythontestengineer.co.uk)
+
+[Github CV](https://github.com/Python-Test-Engineer/)
+
+[Github Repo](https://github.com/Python-Test-Engineer/PYTHON-TEST-FRAMEWORK)
+
 # Python Test Engineer
 
 - Degree in Chemistry, Oxford University.
@@ -7,18 +15,6 @@
 - Qualified Accountant Technician and business owner.
 - Experience with REST APIs, GraphQL, React, Vue, Web Components, Node, Docker
 - Talks and workshops given at WordCamps, MeetUps and NDC.
-[VIEW SPEAKING](#talks-and-workshops)
-
-
-### Connect with me
-
-- 🌐 https://python-test-engineer.netlify.app/
-- 📫 mrcraigwest@hotmail.com
-- 🖥️ https://www.youtube.com/@iwswordpress/featured
-
-###  Currently...
-
-I am developing a collated resource for Python Testing along with a range of test Suites with 'one click' set up. [https://github.com/iwswordpress/generic-pytest-playwright-pytest-bdd-framework](https://github.com/Python-Test-Engineer/PYTHON-TEST-FRAMEWORK)
 
 
 ### Talks and Workshops
@@ -35,7 +31,7 @@ A list of talks and workshops I have given:
 
 - TALK: Leveraging the power or the WordPress REST API - WP Leeds April 2021
 
-- WORKSHOP: WP REST API and you -> Best Friends Forever workshop (90 mins) - WordCamp Greece April 2021 https://github.com/iwswordpress/WordCampGreece
+- WORKSHOP: WP REST API and you -> Best Friends Forever workshop (90 mins) - WordCamp Greece April 2021 
 
 - TALK: Web Components as Micro Apps - NDC London, Jan 2021
 

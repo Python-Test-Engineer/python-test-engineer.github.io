@@ -1,13 +1,33 @@
-# Host on Netlify
+# PlaywrightI Testing
 
-- [Demo site on Netlify] (build & deploy with Netlify)
+## About
 
-Create GitHub repository and deploy to Netlify with the following button in 1 min.
+Playwright was created specifically to accommodate the needs of end-to-end testing. Playwright supports all modern rendering engines including Chromium, WebKit, and Firefox. Test on Windows, Linux, and macOS, locally or on CI, headless or headed with native mobile emulation.
 
-[![Deploy to Netlify from GitHub](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/peaceiris/mkdocs-material-boilerplate)
+Playwright recommends using the official Playwright Pytest plugin to write end-to-end tests. It provides context isolation, running it on multiple browser configurations out of the box. Alternatively you can use the library to manually write the testing infrastructure with your preferred test-runner. The Pytest plugin utilizes the sync version of Playwright, there is also an async version accessible via the library.
 
+## Install TEST_SUITE_01
 
+- Host source code on GitLab.
+- Build and deploy with GitLab CI/CD.
 
-<!-- Internal References -->
-<!-- External References -->
-[Demo site on Netlify]: https://mkdocs-material.netlify.com/
+## Tests
+
+Host source code on:
+
+- GitHub
+- GitLab
+- BitBucket
+
+Build and deploy with Netlify.
+
+## Resources
+
+Host source code on:
+
+- GitHub
+- GitLab
+- BitBucket
+- AWS CodeCommit
+
+Build and deploy with AWS Amplify Console.

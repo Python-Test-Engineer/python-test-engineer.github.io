@@ -1,24 +1,15 @@
-# Hosting and Deployment
+# API Testing
 
+## About
 
+API ...
 
-## GitHub Pages and GitHub
-
-- Host source code on GitHub.
-- Build and deploy with:
-    - `mkdocs gh-deploy`
-    - GitHub Actions
-
-
-
-## GitLab Pages and GitLab
+## Install TEST_SUITE_01
 
 - Host source code on GitLab.
 - Build and deploy with GitLab CI/CD.
 
-
-
-## Netlify
+## Tests
 
 Host source code on:
 
@@ -28,9 +19,7 @@ Host source code on:
 
 Build and deploy with Netlify.
 
-
-
-## AWS Amplify Console
+## Resources
 
 Host source code on:
 

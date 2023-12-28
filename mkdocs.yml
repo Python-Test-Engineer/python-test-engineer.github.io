@@ -75,14 +75,15 @@ nav:
       - "PyTest Basic": "pytest/pytest_basic.md"
       - "PyTest": "pytest/pytest.md"
   - "Playwright Testing":
-      - "Playwright": "playwright_api/playwright.md"
+      - "TEST_SUITE_01": "playwright_api/playwright.md"
       - "Testing Playgrounds": "playwright_api/testing_playgrounds.md"
   - "API Testing":
-      - "About": "playwright_api/api.md"
+      - "TEST_SUITE_01": "api_testing/api.md"
+      - "Testing Playgrounds": "playwright_api/testing_playgrounds.md"
   - "Hypothesis":
       - "About Hypothesis": "hypothesis/index.md"
-  - "About Craig":
-      - "craig/index.md"
+  - "Craig West":
+      - "About Craig": "craig/craig.md"
 
 copyright: |
   &copy; 2024 <a href="https://github.com/Python-Test-Engineer"  target="_blank" rel="noopener">Craig West - PythonTestEngineer.co.uk</a>
