@@ -67,7 +67,7 @@ nav:
   - "Home": "index.md"
 
   - "Django Testing":
-      - "About": "django/about.md"
+      - "Django Testing": "django/about.md"
       - "Setup": "django_testing/setup"
       - "Apps": "django_testing/apps.md"
       - "Tests": "django_testing/tests.md"
@@ -80,7 +80,7 @@ nav:
       - "API": "playwright_api/api.md"
       - "Playwright": "playwright_api/playwright.md"
   - "Hypothesis":
-      - "About": "hypothesis/index.md"
+      - "About Hypothesis": "hypothesis/index.md"
   - "About Craig":
       - "craig/index.md"
 
