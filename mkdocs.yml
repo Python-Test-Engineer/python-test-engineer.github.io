@@ -42,13 +42,16 @@ markdown_extensions:
   - attr_list
   - codehilite
   - footnotes
-  # - mdx_math:
-  #     enable_dollar_delimiter: true
   - toc:
       permalink: true
       separator: "_"
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
 
-# Customization
 extra_javascript:
   - "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-MML-AM_CHTML"
 extra_css:
