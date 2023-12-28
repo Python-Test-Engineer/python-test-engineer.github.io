@@ -14,7 +14,7 @@
         <link rel="prev" href="../pytest_basic/">
       
       
-        <link rel="next" href="../tutorial_1/">
+        <link rel="next" href="../../playwright_api/testing_playgrounds/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -76,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#start_with_pipenv" class="md-skip">
+        <a href="#pytest_-_test_suite_01" class="md-skip">
           Skip to content
         </a>
       
@@ -489,36 +489,63 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#pipenv" class="md-nav__link">
+  <a href="#about" class="md-nav__link">
     <span class="md-ellipsis">
-      pipenv
+      About
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#install_all_packages" class="md-nav__link">
+  <a href="#install" class="md-nav__link">
     <span class="md-ellipsis">
-      Install all packages
+      Install
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#run_mkdocs" class="md-nav__link">
+  <a href="#run_tests" class="md-nav__link">
     <span class="md-ellipsis">
-      Run MkDocs
+      Run Tests
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#pipenv_run" class="md-nav__link">
+  <a href="#tutorial_01" class="md-nav__link">
     <span class="md-ellipsis">
-      pipenv run
+      Tutorial 01
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tutorial_02" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tutorial 02
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mock_and_patch" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mock and Patch
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resources
     </span>
   </a>
   
@@ -528,69 +555,6 @@
   
 </nav>
       
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../tutorial_1/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Tutorial 1
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../tutorial_2/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Tutorial 2
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../mock_patch/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Mock and Patch
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -855,19 +819,20 @@
                   
 
 
-<h1 id="start_with_pipenv">Start with pipenv<a class="headerlink" href="#start_with_pipenv" title="Permanent link">&para;</a></h1>
-<h2 id="pipenv">pipenv<a class="headerlink" href="#pipenv" title="Permanent link">&para;</a></h2>
+<h1 id="pytest_-_test_suite_01">PyTest - TEST_SUITE_01<a class="headerlink" href="#pytest_-_test_suite_01" title="Permanent link">&para;</a></h1>
+<h2 id="about">About<a class="headerlink" href="#about" title="Permanent link">&para;</a></h2>
 <blockquote>
 <p>Pipenv is a tool that aims to bring the best of all packaging worlds (bundler, composer, npm, cargo, yarn, etc.) to the Python world.</p>
 </blockquote>
 <ul>
 <li><a href="https://github.com/pypa/pipenv">pypa/pipenv: Python Development Workflow for Humans.</a></li>
 </ul>
-<h2 id="install_all_packages">Install all packages<a class="headerlink" href="#install_all_packages" title="Permanent link">&para;</a></h2>
+<h2 id="install">Install<a class="headerlink" href="#install" title="Permanent link">&para;</a></h2>
 <div class="codehilite"><pre><span></span><code>pipenv<span class="w"> </span>sync<span class="w"> </span>--dev<span class="w">  </span><span class="c1"># Installs all packages specified in Pipfile.lock.</span>
 </code></pre></div>
 
-<h2 id="run_mkdocs">Run MkDocs<a class="headerlink" href="#run_mkdocs" title="Permanent link">&para;</a></h2>
+<h2 id="run_tests">Run Tests<a class="headerlink" href="#run_tests" title="Permanent link">&para;</a></h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam augue nisl, euismod et turpis a, ultrices rutrum mi. </p>
 <div class="codehilite"><pre><span></span><code>pipenv<span class="w"> </span>shell<span class="w">  </span><span class="c1"># Spawns a shell within the virtualenv.</span>
 mkdocs<span class="w"> </span>serve
 </code></pre></div>
@@ -876,15 +841,24 @@ mkdocs<span class="w"> </span>serve
 <div class="codehilite"><pre><span></span><code>pipenv<span class="w"> </span>run<span class="w"> </span>mkdocs<span class="w"> </span>serve
 </code></pre></div>
 
-<h2 id="pipenv_run"><code>pipenv run</code><a class="headerlink" href="#pipenv_run" title="Permanent link">&para;</a></h2>
-<p>pipenv task are also defined by <a href="https://github.com/peaceiris/mkdocs-material-boilerplate/blob/main/Pipfile">Pipfile</a></p>
-<div class="codehilite"><pre><span></span><code>pipenv<span class="w"> </span>run<span class="w"> </span>version<span class="w">    </span><span class="c1"># mkdocs --version</span>
-pipenv<span class="w"> </span>run<span class="w"> </span><span class="nb">help</span><span class="w">       </span><span class="c1"># mkdocs --help</span>
-pipenv<span class="w"> </span>run<span class="w"> </span>inv<span class="w"> </span>serve<span class="w">  </span><span class="c1"># inv serve</span>
-pipenv<span class="w"> </span>run<span class="w"> </span>serve<span class="w">      </span><span class="c1"># mkdocs serve</span>
-pipenv<span class="w"> </span>run<span class="w"> </span>build<span class="w">      </span><span class="c1"># mkdocs build</span>
-pipenv<span class="w"> </span>run<span class="w"> </span>deploy<span class="w">     </span><span class="c1"># mkdocs gh-deploy</span>
-</code></pre></div>
+<h2 id="tutorial_01">Tutorial 01<a class="headerlink" href="#tutorial_01" title="Permanent link">&para;</a></h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam augue nisl, euismod et turpis a, ultrices rutrum mi. Etiam pretium leo at mi fringilla, sit amet iaculis orci blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut libero placerat, sollicitudin ante non, molestie nisi. Cras at malesuada odio. Nullam libero quam, tempor in semper in, aliquam nec nulla. Sed luctus mi quis lorem faucibus fringilla. Morbi sit amet ante ac leo sollicitudin porta. Phasellus interdum nec neque eu placerat. Phasellus eget velit et tortor pretium vulputate vel vel nunc.</p>
+<p>In accumsan ligula lectus. Suspendisse potenti. Praesent tempor facilisis nisi, facilisis convallis eros tempor tempor. Donec quis urna pharetra nibh lobortis commodo sit amet a nunc. Suspendisse tempus lacinia leo at sollicitudin. In id vulputate orci, in pulvinar ligula. Morbi ac ex ut quam consequat tincidunt id eu elit. Mauris id nisi orci. Sed a velit enim. Aenean nec sem non purus vehicula maximus. Sed leo lorem, cursus sit amet massa ac, iaculis congue dui. Sed venenatis mollis dui eu pretium.
+```</p>
+<h2 id="tutorial_02">Tutorial 02<a class="headerlink" href="#tutorial_02" title="Permanent link">&para;</a></h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam augue nisl, euismod et turpis a, ultrices rutrum mi. Etiam pretium leo at mi fringilla, sit amet iaculis orci blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut libero placerat, sollicitudin ante non, molestie nisi. Cras at malesuada odio. Nullam libero quam, tempor in semper in, aliquam nec nulla. Sed luctus mi quis lorem faucibus fringilla. Morbi sit amet ante ac leo sollicitudin porta. Phasellus interdum nec neque eu placerat. Phasellus eget velit et tortor pretium vulputate vel vel nunc.</p>
+<p>In accumsan ligula lectus. Suspendisse potenti. Praesent tempor facilisis nisi, facilisis convallis eros tempor tempor. Donec quis urna pharetra nibh lobortis commodo sit amet a nunc. Suspendisse tempus lacinia leo at sollicitudin. In id vulputate orci, in pulvinar ligula. Morbi ac ex ut quam consequat tincidunt id eu elit. Mauris id nisi orci. Sed a velit enim. Aenean nec sem non purus vehicula maximus. Sed leo lorem, cursus sit amet massa ac, iaculis congue dui. Sed venenatis mollis dui eu pretium.</p>
+<h2 id="mock_and_patch">Mock and Patch<a class="headerlink" href="#mock_and_patch" title="Permanent link">&para;</a></h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam augue nisl, euismod et turpis a, ultrices rutrum mi. Etiam pretium leo at mi fringilla, sit amet iaculis orci blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut libero placerat, sollicitudin ante non, molestie nisi. Cras at malesuada odio. Nullam libero quam, tempor in semper in, aliquam nec nulla. Sed luctus mi quis lorem faucibus fringilla. Morbi sit amet ante ac leo sollicitudin porta. Phasellus interdum nec neque eu placerat. Phasellus eget velit et tortor pretium vulputate vel vel nunc.</p>
+<p>In accumsan ligula lectus. Suspendisse potenti. Praesent tempor facilisis nisi, facilisis convallis eros tempor tempor. Donec quis urna pharetra nibh lobortis commodo sit amet a nunc. Suspendisse tempus lacinia leo at sollicitudin. In id vulputate orci, in pulvinar ligula. Morbi ac ex ut quam consequat tincidunt id eu elit. Mauris id nisi orci. Sed a velit enim. Aenean nec sem non purus vehicula maximus. Sed leo lorem, cursus sit amet massa ac, iaculis congue dui. Sed venenatis mollis dui eu pretium.</p>
+<h2 id="resources">Resources<a class="headerlink" href="#resources" title="Permanent link">&para;</a></h2>
+<ul>
+<li>PyTest Book</li>
+<li>Article</li>
+<li>Article</li>
+<li>Article</li>
+<li>Article</li>
+</ul>
 
 
 
