@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://python-test-engineer.github.io/craig/deployment/">
+        <link rel="canonical" href="https://python-test-engineer.github.io/pytest/tutorial_2/">
       
       
-        <link rel="prev" href="../">
+        <link rel="prev" href="../tutorial_1/">
       
       
-        <link rel="next" href="../configuration/">
+        <link rel="next" href="../mock_patch/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -22,7 +22,7 @@
     
     
       
-        <title>Deployment - Python Test Framework</title>
+        <title>Tutorial 2 - Python Test Framework</title>
       
     
     
@@ -76,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#deployment" class="md-skip">
+        <a href="#start_with_pip_anaconda_miniconda" class="md-skip">
           Skip to content
         </a>
       
@@ -112,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Deployment
+              Tutorial 2
             
           </span>
         </div>
@@ -292,11 +292,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../../django_testing/mathjax/" class="md-nav__link">
+      <a href="../../django/about.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    MathJax
+    About
   </span>
   
 
@@ -313,11 +313,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../../django_testing/code-hilite/" class="md-nav__link">
+      <a href="../../django_testing/setup" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Code Hilite
+    Setup
   </span>
   
 
@@ -334,11 +334,32 @@
   
   
     <li class="md-nav__item">
-      <a href="../../django_testing/footnote/" class="md-nav__link">
+      <a href="../../django_testing/apps/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Footnote
+    Apps
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../django_testing/tests/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tests
   </span>
   
 
@@ -359,19 +380,21 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
@@ -385,7 +408,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             PyTest
@@ -399,11 +422,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../../pytest/download-boilerplate/" class="md-nav__link">
+      <a href="../pytest_basic/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Download boilerplate
+    PyTest Basic
   </span>
   
 
@@ -420,11 +443,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../../pytest/pipenv/" class="md-nav__link">
+      <a href="../pytest/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    pipenv
+    PyTest
   </span>
   
 
@@ -441,11 +464,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../../pytest/invoke/" class="md-nav__link">
+      <a href="../tutorial_1/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    invoke
+    Tutorial 1
   </span>
   
 
@@ -459,18 +482,28 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../pytest/docker/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
-    Docker
+    Tutorial 2
   </span>
   
 
       </a>
+      
     </li>
   
 
@@ -483,11 +516,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../../pytest/pip/" class="md-nav__link">
+      <a href="../mock_patch/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    pip
+    Mock and Patch
   </span>
   
 
@@ -680,21 +713,19 @@
       
   
   
-    
   
   
-  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
         
           
           <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
@@ -708,7 +739,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
             About Craig
@@ -722,183 +753,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../" class="md-nav__link">
+      <a href="../../craig/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
     Index
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-    
-  
-  
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Deployment
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
-        
-  
-  <span class="md-ellipsis">
-    Deployment
-  </span>
-  
-
-      </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#sorte_dilapsa_veniam_roganti_undas_tum_ab" class="md-nav__link">
-    <span class="md-ellipsis">
-      Sorte dilapsa veniam roganti undas tum ab
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#amictus_polenta_carina_admirantibus_faciat" class="md-nav__link">
-    <span class="md-ellipsis">
-      Amictus polenta carina admirantibus faciat
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#sum_ait_othrysque_hoc_unum_convexa_hinc" class="md-nav__link">
-    <span class="md-ellipsis">
-      Sum ait Othrysque hoc unum convexa hinc
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../configuration/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Configuration
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../example/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Example
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../install/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Install
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../release_notes/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Release notes
   </span>
   
 
@@ -930,48 +789,12 @@
                   
 
 
-<h1 id="deployment">Deployment<a class="headerlink" href="#deployment" title="Permanent link">&para;</a></h1>
-<h2 id="sorte_dilapsa_veniam_roganti_undas_tum_ab">Sorte dilapsa veniam roganti undas tum ab<a class="headerlink" href="#sorte_dilapsa_veniam_roganti_undas_tum_ab" title="Permanent link">&para;</a></h2>
-<p>Lorem markdownum. Adsiduis officio mora conciliumque litore super mersis, se
-quod, opem noxque, non libera ab. Infra opus peregit non. Et hanc nostra minatur
-Seriphon non pronus inde <strong>membra</strong>, mea <em>sumpto apulus</em> ad aura qualis. Quem
-vetustos, iam atque fretum namque ex cauda, per vultu me flavum temperius
-maculoso possum <strong>raptoresque</strong>.</p>
-<p><strong>Perspice et equo</strong> fulgura, aut gaudet sunt dumque niveum, fugitque abstrahor
-saxis fulmineis est esse. Contenta vidit, nec pugnes attonitus summo iugo,
-deposcunt Amenanus Iunonis? Quaesitamque motae nec: terras heros semper nuper,
-<a href="http://stupet.com/propiusquepartem.php">et inpono gradus</a>, ab.</p>
-<h2 id="amictus_polenta_carina_admirantibus_faciat">Amictus polenta carina admirantibus faciat<a class="headerlink" href="#amictus_polenta_carina_admirantibus_faciat" title="Permanent link">&para;</a></h2>
-<p>Tum quae convicia studiis: faxo cunas visa clarus, quondam, prius. Novi nata
-dedit, Poemenis trementi haruspex prodere fontem: e. Nova nubes bracchia aras
-squamas moraque <em>ad segetes</em> remoto.</p>
-<div class="codehilite"><pre><span></span><code>&gt;<span class="w"> </span>Modo<span class="w"> </span>dira<span class="w"> </span>nostroque<span class="w"> </span>congreditur<span class="w"> </span>patria<span class="w"> </span>si<span class="w"> </span>corpus<span class="w"> </span>insidior<span class="w"> </span>illam<span class="w"> </span>lusibus<span class="w"> </span>per
-&gt;<span class="w"> </span>vim<span class="w"> </span>relinquunt<span class="w"> </span>talia.<span class="w"> </span>Per<span class="w"> </span>an<span class="w"> </span>supremo<span class="w"> </span>gaudet<span class="w"> </span>latices<span class="w"> </span>*Melaneus*<span class="w"> </span>latuerunt<span class="w"> </span>tibi
-&gt;<span class="w"> </span>petebar,<span class="w"> </span>Pirithoi<span class="w"> </span>spectacula.<span class="w"> </span>Et<span class="w"> </span>hectora<span class="w"> </span>limina,<span class="w"> </span>quaeque,<span class="w"> </span>hoc<span class="w"> </span>adde<span class="w"> </span>precor
-&gt;<span class="w"> </span>domosque,<span class="w"> </span>sed<span class="w"> </span><span class="k">in</span><span class="w"> </span>dieque,<span class="w"> </span>me<span class="w"> </span>pinnis<span class="w"> </span>desunt,<span class="w"> </span>cadunt.<span class="w"> </span>Nam<span class="w"> </span>fallacis<span class="w"> </span>isto<span class="w"> </span>talia
-&gt;<span class="w"> </span>tenues<span class="w"> </span>inferiusque<span class="w"> </span>non<span class="w"> </span>solito<span class="w"> </span>hic<span class="w"> </span>matre?<span class="w"> </span>Mirum<span class="w"> </span>at<span class="w"> </span>licet<span class="w"> </span>qui<span class="w"> </span>cuncta<span class="w"> </span>collo
-&gt;<span class="w"> </span><span class="o">[</span>deductus<span class="o">](</span>http://www.fraude-ignipedum.io/<span class="o">)</span><span class="w"> </span>animoque<span class="w"> </span>quoque.
+<h1 id="start_with_pip_anaconda_miniconda">Start with pip (Anaconda, Miniconda)<a class="headerlink" href="#start_with_pip_anaconda_miniconda" title="Permanent link">&para;</a></h1>
+<div class="codehilite"><pre><span></span><code>pip<span class="w"> </span>install<span class="w"> </span>-r<span class="w"> </span>requirements.txt
+pip<span class="w"> </span>install<span class="w"> </span>-r<span class="w"> </span>requirements-dev.txt
 </code></pre></div>
 
-<p>Tamen tenebras sit vacuas ire fecerat deus reddidit sonantia, mite <strong>sorores</strong>,
-surrexit removente iussa et, ne. Verba malorum Lycias tempestiva irae ex mentes
-illo durasse Proteus genitore habes; Phoebes doloris, <strong>et rara</strong>.</p>
-<h2 id="sum_ait_othrysque_hoc_unum_convexa_hinc">Sum ait Othrysque hoc unum convexa hinc<a class="headerlink" href="#sum_ait_othrysque_hoc_unum_convexa_hinc" title="Permanent link">&para;</a></h2>
-<p>Inque inmurmurat at prodere: o viri corpora nuper, ut calido certa <strong>cum</strong>.
-Ilios enim iam iniustaque fonti, ab torva. Auro precor <em>solebat</em> vincla
-septemplice ultra errore crescens nomina dextraque annis
-<a href="http://www.imaginenostris.org/">praetemptatque</a> carpitque protinus dextra,
-exanimem, fatentis. Maris rates, et <strong>fugant et</strong> pia aera rumpere arces
-<a href="http://undas-animosque.io/pocula">laesasque</a>, ira silvas quem ministri variatis
-Cerberon videntem si.</p>
-<blockquote>
-<p>Aureus in tellus deplanxere facti se tuus sive, cecidere quisque, variare
-pulsatus. Non in gentesque funera <em>sufficiunt detractare illo</em> perlucentibus
-<a href="http://morte.io/pabulaaltismunera">atlas</a> vel reperta non insula.</p>
-</blockquote>
-<p>Noctis tamen. Ora facta armo montis iussae Busirin in flammae inanes.</p>
-<p>Pia fuerunt movit, terra turba mentis quem cinis cladem, madidum labor ponit
-clavam. Imo vitamque: diem cum ore intravit pro filia Aiax.</p>
+<p><code>inv</code> command is also available.</p>
 
 
 

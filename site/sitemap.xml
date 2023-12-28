@@ -2,107 +2,82 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://python-test-engineer.github.io/</loc>
-         <lastmod>2023-12-27</lastmod>
+         <lastmod>2023-12-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://python-test-engineer.github.io/craig/</loc>
-         <lastmod>2023-12-27</lastmod>
+         <lastmod>2023-12-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://python-test-engineer.github.io/craig/configuration/</loc>
-         <lastmod>2023-12-27</lastmod>
+         <loc>https://python-test-engineer.github.io/django_testing/about/</loc>
+         <lastmod>2023-12-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://python-test-engineer.github.io/craig/deployment/</loc>
-         <lastmod>2023-12-27</lastmod>
+         <loc>https://python-test-engineer.github.io/django_testing/apps/</loc>
+         <lastmod>2023-12-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://python-test-engineer.github.io/craig/development/</loc>
-         <lastmod>2023-12-27</lastmod>
+         <loc>https://python-test-engineer.github.io/django_testing/setup/</loc>
+         <lastmod>2023-12-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://python-test-engineer.github.io/craig/example/</loc>
-         <lastmod>2023-12-27</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://python-test-engineer.github.io/craig/install/</loc>
-         <lastmod>2023-12-27</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://python-test-engineer.github.io/craig/introduction/</loc>
-         <lastmod>2023-12-27</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://python-test-engineer.github.io/craig/release_notes/</loc>
-         <lastmod>2023-12-27</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://python-test-engineer.github.io/django_testing/code-hilite/</loc>
-         <lastmod>2023-12-27</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://python-test-engineer.github.io/django_testing/footnote/</loc>
-         <lastmod>2023-12-27</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://python-test-engineer.github.io/django_testing/mathjax/</loc>
-         <lastmod>2023-12-27</lastmod>
+         <loc>https://python-test-engineer.github.io/django_testing/tests/</loc>
+         <lastmod>2023-12-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://python-test-engineer.github.io/hypothesis/</loc>
-         <lastmod>2023-12-27</lastmod>
+         <lastmod>2023-12-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://python-test-engineer.github.io/playwright_api/api/</loc>
-         <lastmod>2023-12-27</lastmod>
+         <lastmod>2023-12-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://python-test-engineer.github.io/playwright_api/playwright/</loc>
-         <lastmod>2023-12-27</lastmod>
+         <lastmod>2023-12-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://python-test-engineer.github.io/playwright_api/testing_playgrounds/</loc>
-         <lastmod>2023-12-27</lastmod>
+         <lastmod>2023-12-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://python-test-engineer.github.io/pytest/docker/</loc>
-         <lastmod>2023-12-27</lastmod>
+         <lastmod>2023-12-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://python-test-engineer.github.io/pytest/download-boilerplate/</loc>
-         <lastmod>2023-12-27</lastmod>
+         <loc>https://python-test-engineer.github.io/pytest/mock_patch/</loc>
+         <lastmod>2023-12-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://python-test-engineer.github.io/pytest/invoke/</loc>
-         <lastmod>2023-12-27</lastmod>
+         <loc>https://python-test-engineer.github.io/pytest/pytest/</loc>
+         <lastmod>2023-12-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://python-test-engineer.github.io/pytest/pip/</loc>
-         <lastmod>2023-12-27</lastmod>
+         <loc>https://python-test-engineer.github.io/pytest/pytest_basic/</loc>
+         <lastmod>2023-12-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://python-test-engineer.github.io/pytest/pipenv/</loc>
-         <lastmod>2023-12-27</lastmod>
+         <loc>https://python-test-engineer.github.io/pytest/tutorial_1/</loc>
+         <lastmod>2023-12-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://python-test-engineer.github.io/pytest/tutorial_2/</loc>
+         <lastmod>2023-12-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
