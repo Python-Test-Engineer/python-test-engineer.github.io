@@ -2,6 +2,8 @@
 
 A set of 'one click install' test suites with increasing functionality, comprising templates, resources and YoutTube videos.
 
+I have collated these into their appropriate test suites so that they run out of the box. With highly commented code and reference links, it will enable developers/testers to use and learn about testing.
+
 ## Test Suites
 
 - TEST_SUITE_00 A basic src folder wired to PyTest with custom logging and pytest-sugar console formating.#
@@ -16,3 +18,7 @@ A set of 'one click install' test suites with increasing functionality, comprisi
 
 - Download the main repo and navigate to required TEST_SUITE. The Github repo for all these TEST_SUITES is [here](https://github.com/Python-Test-Engineer/PYTHON-TEST-FRAMEWORK){:target="_blank"}.
 - Follow install instructions in README.md file of test suite.
+
+## YouTube Videos
+
+These are available [here](https://www.youtube.com/playlist?list=PLsszRSbzjyvkincV5XUzF9BeGsckrjb74){:target="_blank"}.
