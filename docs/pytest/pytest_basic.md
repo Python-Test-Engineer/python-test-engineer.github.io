@@ -17,7 +17,7 @@ There is custom logging defined in pytest.ini that outputs to a `log` folder.
 
 - move to `TEST_SUITE_00` folder and 
 ```
-pip install -r requiements_00.txt
+pip install -r requirements_00.txt
 ```
 
 
