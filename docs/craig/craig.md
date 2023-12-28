@@ -1,5 +1,4 @@
 
-<base target="_blank">
 
 Craig West - [PythonTestEngineer.co.uk](http://pythontestengineer.co.uk)
 
