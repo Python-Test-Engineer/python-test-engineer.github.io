@@ -41,7 +41,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://python-test-engineer.github.io/hypothesis/</loc>
+         <loc>https://python-test-engineer.github.io/hypothesis/hypothesis/</loc>
          <lastmod>2023-12-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -62,6 +62,21 @@
     </url>
     <url>
          <loc>https://python-test-engineer.github.io/pytest/pytest_basic/</loc>
+         <lastmod>2023-12-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://python-test-engineer.github.io/resources/articles/</loc>
+         <lastmod>2023-12-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://python-test-engineer.github.io/resources/books/</loc>
+         <lastmod>2023-12-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://python-test-engineer.github.io/resources/videos/</loc>
          <lastmod>2023-12-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
