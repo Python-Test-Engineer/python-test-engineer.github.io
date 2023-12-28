@@ -21,6 +21,21 @@ pip install -r requirements_00.txt
 ```
 
 
+## Sample layout
+
+```bash
+├── docs
+│   ├── about.md
+│   └── index.md
+├── mkdocs.yml
+└── site
+    ├── 404.html
+    ├── about
+    │   └── search_index.json
+    ├── sitemap.xml
+    └── sitemap.xml.gz
+
+```
 
 ## Tests
 
