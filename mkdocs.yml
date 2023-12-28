@@ -57,8 +57,8 @@ extra:
   social:
     - icon: "fontawesome/brands/github-alt"
       link: "https://github.com/peaceiris"
-    - icon: "fontawesome/brands/twitter"
-      link: "https://twitter.com/piris314en"
+    # - icon: "fontawesome/brands/twitter"
+    #   link: "https://twitter.com/piris314en"
 
 # Page tree
 nav:
