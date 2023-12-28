@@ -51,32 +51,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://python-test-engineer.github.io/pytest/docker/</loc>
-         <lastmod>2023-12-28</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://python-test-engineer.github.io/pytest/mock_patch/</loc>
-         <lastmod>2023-12-28</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://python-test-engineer.github.io/pytest/pytest/</loc>
          <lastmod>2023-12-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://python-test-engineer.github.io/pytest/pytest_basic/</loc>
-         <lastmod>2023-12-28</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://python-test-engineer.github.io/pytest/tutorial_1/</loc>
-         <lastmod>2023-12-28</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://python-test-engineer.github.io/pytest/tutorial_2/</loc>
          <lastmod>2023-12-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
