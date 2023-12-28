@@ -74,7 +74,7 @@ nav:
       - "PyTest Basic": "pytest/pytest_basic.md"
       - "PyTest": "pytest/pytest.md"
   - "Playwright Testing":
-      - "TEST_SUITE_01": "playwright_api/playwright.md"
+      - "TEST_SUITE_02": "playwright_api/playwright.md"
       - "Testing Playgrounds": "playwright_api/testing_playgrounds.md"
   - "API Testing":
       - "TEST_SUITE_01": "api_testing/api.md"

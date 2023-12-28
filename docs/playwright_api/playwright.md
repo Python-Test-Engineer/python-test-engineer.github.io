@@ -1,4 +1,4 @@
-# PlaywrightI Testing
+# Playwright Testing
 
 ## About
 
@@ -6,28 +6,17 @@ Playwright was created specifically to accommodate the needs of end-to-end testi
 
 Playwright recommends using the official Playwright Pytest plugin to write end-to-end tests. It provides context isolation, running it on multiple browser configurations out of the box. Alternatively you can use the library to manually write the testing infrastructure with your preferred test-runner. The Pytest plugin utilizes the sync version of Playwright, there is also an async version accessible via the library.
 
-## Install TEST_SUITE_01
+[Playwright - Python](https://playwright.dev/python/){:target="_blank"}
 
-- Host source code on GitLab.
-- Build and deploy with GitLab CI/CD.
+## Install 
 
-## Tests
+- move to `TEST_SUITE_02` 
+- create virtual environment as you wish
+- run `pip install requirements_01.txt`
+- run `playwright install` to load in browsers. IMPORTANT.
 
-Host source code on:
+## Run Tests
 
-- GitHub
-- GitLab
-- BitBucket
+- run `python -m pytest -vs`
 
-Build and deploy with Netlify.
 
-## Resources
-
-Host source code on:
-
-- GitHub
-- GitLab
-- BitBucket
-- AWS CodeCommit
-
-Build and deploy with AWS Amplify Console.
