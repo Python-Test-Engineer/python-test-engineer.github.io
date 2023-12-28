@@ -1,10 +1,21 @@
+- [PythonTestEngineer.co.uk](http://pythontestengineer.co.uk)
+
+- [Github CV](https://github.com/Python-Test-Engineer/)
+
+- [Github Repo](https://github.com/Python-Test-Engineer/PYTHON-TEST-FRAMEWORK)
 
 
-Craig West - [PythonTestEngineer.co.uk](http://pythontestengineer.co.uk)
+![Logo](../assets/images/craig.jpg){:style="width:240px;border-radius:50%;border: 5px solid #555;"}
 
-[Github CV](https://github.com/Python-Test-Engineer/)
+<table>
+<tbody>
+	<tr>
+		<td><img src="./craig.jpg" style="width:240px;border-radius:50%;border: 5px solid #555;"></td>
+		<td>Python Test Engineer - particulalry Django</td>
+	</tr>
 
-[Github Repo](https://github.com/Python-Test-Engineer/PYTHON-TEST-FRAMEWORK)
+</tbody>
+</table>
 
 # Python Test Engineer
 

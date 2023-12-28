@@ -65,9 +65,8 @@ extra:
 # Page tree
 nav:
   - "Home": "index.md"
-
   - "Django Testing":
-      - "Django Testing": "django/about.md"
+      - "Django Testing": "django_testing/about.md"
       - "Setup": "django_testing/setup"
       - "Apps": "django_testing/apps.md"
       - "Tests": "django_testing/tests.md"
@@ -81,7 +80,11 @@ nav:
       - "TEST_SUITE_01": "api_testing/api.md"
       - "Testing Playgrounds": "playwright_api/testing_playgrounds.md"
   - "Hypothesis":
-      - "About Hypothesis": "hypothesis/index.md"
+      - "Property based testing": "hypothesis/hypothesis.md"
+  - "Resources":
+      - "Books": "resources/books.md"
+      - "Articles": "resources/articles.md"
+      - "Videos": "resources/videos.md"
   - "Craig West":
       - "About Craig": "craig/craig.md"
 
