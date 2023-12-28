@@ -2,30 +2,17 @@
 
 ## About
 
-API ...
+This is part of TEST_SUITE_02 which you may have installed already for Playwright testing.
 
-## Install TEST_SUITE_01
+## Install 
 
-- Host source code on GitLab.
-- Build and deploy with GitLab CI/CD.
+- move to `TEST_SUITE_02` 
+- create virtual environment as you wish
+- run `pip install requirements_02.txt`
+- run `playwright install` to load in browsers. IMPORTANT.
 
-## Tests
+## Run Tests
 
-Host source code on:
+- run `python -m pytest -vs`
 
-- GitHub
-- GitLab
-- BitBucket
 
-Build and deploy with Netlify.
-
-## Resources
-
-Host source code on:
-
-- GitHub
-- GitLab
-- BitBucket
-- AWS CodeCommit
-
-Build and deploy with AWS Amplify Console.

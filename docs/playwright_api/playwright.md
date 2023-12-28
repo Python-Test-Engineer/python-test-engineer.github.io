@@ -12,7 +12,7 @@ Playwright recommends using the official Playwright Pytest plugin to write end-t
 
 - move to `TEST_SUITE_02` 
 - create virtual environment as you wish
-- run `pip install requirements_01.txt`
+- run `pip install requirements_02.txt`
 - run `playwright install` to load in browsers. IMPORTANT.
 
 ## Run Tests
