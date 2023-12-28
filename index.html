@@ -74,7 +74,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#commands" class="md-skip">
+        <a href="#about" class="md-skip">
           Skip to content
         </a>
       
@@ -275,36 +275,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#commands" class="md-nav__link">
+  <a href="#about" class="md-nav__link">
     <span class="md-ellipsis">
-      Commands
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#bash" class="md-nav__link">
-    <span class="md-ellipsis">
-      Bash
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#syntax_highlighting_example" class="md-nav__link">
-    <span class="md-ellipsis">
-      Syntax highlighting Example
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#sample_layout" class="md-nav__link">
-    <span class="md-ellipsis">
-      Sample layout
+      About
     </span>
   </a>
   
@@ -832,74 +805,23 @@
 
 <p>PythonTestEngineer.co.uk - Craig West</p>
 <p><img alt="Logo" src="assets/images/logo.png" style="width:120px;border-radius:50%;border: 5px solid red;" /></p>
-<ul>
-<li>[x] Write the press release</li>
-<li>[ ] Update the website</li>
-<li>[ ] Contact the media</li>
-</ul>
-<p>Gone camping! :tent: Be back soon.</p>
-<p>That is so funny! :joy:</p>
-<h2 id="commands">Commands<a class="headerlink" href="#commands" title="Permanent link">&para;</a></h2>
-<ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs -h</code> - Print help message and exit.</li>
-</ul>
 <div class="admonition info">
 <p class="admonition-title">Info</p>
 </div>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
 nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
 massa, nec semper lorem quam in massa.</p>
-<h2 id="bash">Bash<a class="headerlink" href="#bash" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span><code><span class="c1"># Minimal makefile for Sphinx documentation</span>
-<span class="c1">#</span>
-
-<span class="c1"># You can set these variables from the command line, and also</span>
-<span class="c1"># from the environment for the first two.</span>
-SPHINXOPTS<span class="w">    </span>?<span class="o">=</span>
-SPHINXBUILD<span class="w">   </span>?<span class="o">=</span><span class="w"> </span>sphinx-build
-<span class="nv">SOURCEDIR</span><span class="w">     </span><span class="o">=</span><span class="w"> </span><span class="nb">source</span>
-<span class="nv">BUILDDIR</span><span class="w">      </span><span class="o">=</span><span class="w"> </span>build
-
-<span class="c1"># Put it first so that &quot;make&quot; without argument is like &quot;make help&quot;.</span>
-help:
-<span class="w">    </span>@<span class="k">$(</span>SPHINXBUILD<span class="k">)</span><span class="w"> </span>-M<span class="w"> </span><span class="nb">help</span><span class="w"> </span><span class="s2">&quot;</span><span class="k">$(</span>SOURCEDIR<span class="k">)</span><span class="s2">&quot;</span><span class="w"> </span><span class="s2">&quot;</span><span class="k">$(</span>BUILDDIR<span class="k">)</span><span class="s2">&quot;</span><span class="w"> </span><span class="k">$(</span>SPHINXOPTS<span class="k">)</span><span class="w"> </span><span class="k">$(</span>O<span class="k">)</span>
-
-.PHONY:<span class="w"> </span><span class="nb">help</span><span class="w"> </span>Makefile
-
-<span class="c1"># Catch-all target: route all unknown targets to Sphinx using the new</span>
-<span class="c1"># &quot;make mode&quot; option.  $(O) is meant as a shortcut for $(SPHINXOPTS).</span>
-%:<span class="w"> </span>Makefile
-<span class="w">    </span>@<span class="k">$(</span>SPHINXBUILD<span class="k">)</span><span class="w"> </span>-M<span class="w"> </span><span class="nv">$@</span><span class="w"> </span><span class="s2">&quot;</span><span class="k">$(</span>SOURCEDIR<span class="k">)</span><span class="s2">&quot;</span><span class="w"> </span><span class="s2">&quot;</span><span class="k">$(</span>BUILDDIR<span class="k">)</span><span class="s2">&quot;</span><span class="w"> </span><span class="k">$(</span>SPHINXOPTS<span class="k">)</span><span class="w"> </span><span class="k">$(</span>O<span class="k">)</span>
-</code></pre></div>
-
-<h2 id="syntax_highlighting_example">Syntax highlighting Example<a class="headerlink" href="#syntax_highlighting_example" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span><code><span class="kn">import</span> <span class="nn">flask</span>
-<span class="kn">import</span> <span class="nn">flask_saml</span>
-
-<span class="n">app</span> <span class="o">=</span> <span class="n">flask</span><span class="o">.</span><span class="n">Flask</span><span class="p">(</span><span class="vm">__name__</span><span class="p">)</span>
-
-<span class="n">app</span><span class="o">.</span><span class="n">config</span><span class="o">.</span><span class="n">update</span><span class="p">({</span>
-    <span class="s1">&#39;SECRET_KEY&#39;</span><span class="p">:</span> <span class="s1">&#39;soverysecret&#39;</span><span class="p">,</span>
-    <span class="s1">&#39;SAML_METADATA_URL&#39;</span><span class="p">:</span> <span class="s1">&#39;https://mymetadata.xml&#39;</span><span class="p">,</span>
-<span class="p">})</span>
-<span class="n">flask_saml</span><span class="o">.</span><span class="n">FlaskSAML</span><span class="p">(</span><span class="n">app</span><span class="p">)</span>
-</code></pre></div>
-
-<h2 id="sample_layout">Sample layout<a class="headerlink" href="#sample_layout" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span><code>├──<span class="w"> </span>docs
-│<span class="w">   </span>├──<span class="w"> </span>about.md
-│<span class="w">   </span>└──<span class="w"> </span>index.md
-├──<span class="w"> </span>mkdocs.yml
-└──<span class="w"> </span>site
-<span class="w">    </span>├──<span class="w"> </span><span class="m">404</span>.html
-<span class="w">    </span>├──<span class="w"> </span>about
-<span class="w">    </span>│<span class="w">   </span>└──<span class="w"> </span>search_index.json
-<span class="w">    </span>├──<span class="w"> </span>sitemap.xml
-<span class="w">    </span>└──<span class="w"> </span>sitemap.xml.gz
-</code></pre></div>
+<h2 id="about">About<a class="headerlink" href="#about" title="Permanent link">&para;</a></h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at lorem ut odio fermentum placerat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer egestas, nulla in tincidunt sagittis, nibh libero eleifend turpis, a aliquam lacus libero a purus. Donec luctus tortor a pharetra tincidunt. Aliquam erat volutpat. Fusce porttitor tempus dictum. Integer porta est a nunc ornare aliquam eu at turpis. Duis nec porta lectus. Aliquam finibus tempor nulla dictum imperdiet. Donec eu viverra felis. Aliquam erat volutpat. Mauris varius auctor eros facilisis sagittis. Pellentesque quam diam, ullamcorper a diam eget, aliquam pulvinar erat. Pellentesque sodales porta gravida. Etiam in dapibus risus, at sodales sem.</p>
+<p>Morbi efficitur viverra pellentesque. Cras porttitor tortor eget dolor vulputate, ut interdum nisl vulputate. Phasellus ultricies lectus porttitor vestibulum iaculis. Donec aliquam dictum lacinia. Nunc et vestibulum magna. Quisque tincidunt eu velit sed suscipit. Morbi posuere, lorem a semper ullamcorper, magna mi luctus ipsum, a elementum augue neque lobortis risus. Proin dignissim efficitur tempor.</p>
+<p>Nunc est metus, dictum eget neque non, pulvinar tincidunt metus. Curabitur nec ante eu augue ultricies laoreet ut vitae nunc. Duis venenatis quam risus, at molestie est facilisis sit amet. Etiam volutpat dolor turpis, a efficitur justo eleifend id. Praesent posuere leo a urna sodales, quis suscipit eros scelerisque. Cras consectetur purus ut convallis varius. Phasellus lacinia justo non est lobortis, ut euismod ex lobortis.</p>
+<p>Nunc pellentesque laoreet mauris a dictum. Nam condimentum urna sit amet velit dignissim cursus quis quis urna. Phasellus ac eros nibh. Donec lacinia ligula nec nisl semper, a bibendum elit vehicula. Nullam ultricies dolor justo, non cursus nibh suscipit at. Suspendisse mauris arcu, sagittis sed accumsan ac, lacinia id mauris. Cras lectus orci, ultricies vel ultricies ut, sagittis vel orci. Mauris dignissim interdum ornare. Praesent in massa in augue interdum feugiat vehicula ut diam. Mauris hendrerit vestibulum lorem at faucibus. Mauris interdum felis in lorem porta tristique. Sed elementum fringilla dui, ac aliquet magna placerat ut. Nulla nec neque a dolor imperdiet faucibus viverra ac nibh.</p>
+<p>Vestibulum rutrum dolor vitae velit aliquam, sed venenatis tortor iaculis. Etiam sem ante, accumsan posuere consequat at, ullamcorper ac nulla. Cras quis felis et sem iaculis fermentum ac eu nunc. Fusce sed velit in velit interdum varius. Suspendisse sollicitudin, diam non venenatis eleifend, nisl nibh hendrerit massa, vitae dapibus mi mi vitae metus. Proin lacus nisi, iaculis vitae nisl et, suscipit viverra felis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec quis lorem sed leo feugiat mattis. Cras dignissim purus mattis, luctus quam in, pulvinar eros. Suspendisse potenti. Cras nunc urna, scelerisque a arcu aliquet, bibendum sagittis nulla. Morbi eget varius dui, eu hendrerit metus. Integer vulputate lacus ac nunc vehicula fermentum. Praesent mollis mi quis metus efficitur dapibus.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at lorem ut odio fermentum placerat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer egestas, nulla in tincidunt sagittis, nibh libero eleifend turpis, a aliquam lacus libero a purus. Donec luctus tortor a pharetra tincidunt. Aliquam erat volutpat. Fusce porttitor tempus dictum. Integer porta est a nunc ornare aliquam eu at turpis. Duis nec porta lectus. Aliquam finibus tempor nulla dictum imperdiet. Donec eu viverra felis. Aliquam erat volutpat. Mauris varius auctor eros facilisis sagittis. Pellentesque quam diam, ullamcorper a diam eget, aliquam pulvinar erat. Pellentesque sodales porta gravida. Etiam in dapibus risus, at sodales sem.</p>
+<p>Morbi efficitur viverra pellentesque. Cras porttitor tortor eget dolor vulputate, ut interdum nisl vulputate. Phasellus ultricies lectus porttitor vestibulum iaculis. Donec aliquam dictum lacinia. Nunc et vestibulum magna. Quisque tincidunt eu velit sed suscipit. Morbi posuere, lorem a semper ullamcorper, magna mi luctus ipsum, a elementum augue neque lobortis risus. Proin dignissim efficitur tempor.</p>
+<p>Nunc est metus, dictum eget neque non, pulvinar tincidunt metus. Curabitur nec ante eu augue ultricies laoreet ut vitae nunc. Duis venenatis quam risus, at molestie est facilisis sit amet. Etiam volutpat dolor turpis, a efficitur justo eleifend id. Praesent posuere leo a urna sodales, quis suscipit eros scelerisque. Cras consectetur purus ut convallis varius. Phasellus lacinia justo non est lobortis, ut euismod ex lobortis.</p>
+<p>Nunc pellentesque laoreet mauris a dictum. Nam condimentum urna sit amet velit dignissim cursus quis quis urna. Phasellus ac eros nibh. Donec lacinia ligula nec nisl semper, a bibendum elit vehicula. Nullam ultricies dolor justo, non cursus nibh suscipit at. Suspendisse mauris arcu, sagittis sed accumsan ac, lacinia id mauris. Cras lectus orci, ultricies vel ultricies ut, sagittis vel orci. Mauris dignissim interdum ornare. Praesent in massa in augue interdum feugiat vehicula ut diam. Mauris hendrerit vestibulum lorem at faucibus. Mauris interdum felis in lorem porta tristique. Sed elementum fringilla dui, ac aliquet magna placerat ut. Nulla nec neque a dolor imperdiet faucibus viverra ac nibh.</p>
+<p>Vestibulum rutrum dolor vitae velit aliquam, sed venenatis tortor iaculis. Etiam sem ante, accumsan posuere consequat at, ullamcorper ac nulla. Cras quis felis et sem iaculis fermentum ac eu nunc. Fusce sed velit in velit interdum varius. Suspendisse sollicitudin, diam non venenatis eleifend, nisl nibh hendrerit massa, vitae dapibus mi mi vitae metus. Proin lacus nisi, iaculis vitae nisl et, suscipit viverra felis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec quis lorem sed leo feugiat mattis. Cras dignissim purus mattis, luctus quam in, pulvinar eros. Suspendisse potenti. Cras nunc urna, scelerisque a arcu aliquet, bibendum sagittis nulla. Morbi eget varius dui, eu hendrerit metus. Integer vulputate lacus ac nunc vehicula fermentum. Praesent mollis mi quis metus efficitur dapibus.</p>
 
 
 
