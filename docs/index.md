@@ -1,6 +1,6 @@
 ## Purpose
 
-A set of 'one click install' test suites with increasing functionality, comprising templates, resources and YoutTube videos.
+A set of 'one click install' test suites with increasing functionality, comprising templates, resources and YouTube videos.
 
 I have collated these into their appropriate test suites so that they run out of the box. With highly commented code and reference links, it will enable developers/testers to use and learn about testing.
 
