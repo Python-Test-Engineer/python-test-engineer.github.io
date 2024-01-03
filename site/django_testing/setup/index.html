@@ -18,7 +18,7 @@
     
     
       
-        <title>CodeHilite - Python Test Framework</title>
+        <title>Setup - Python Test Framework</title>
       
     
     
@@ -72,7 +72,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#codehilite" class="md-skip">
+        <a href="#instuctions" class="md-skip">
           Skip to content
         </a>
       
@@ -108,7 +108,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              CodeHilite
+              Setup
             
           </span>
         </div>
@@ -506,7 +506,7 @@
         
   
   <span class="md-ellipsis">
-    TEST_SUITE_02
+    About
   </span>
   
 
@@ -592,7 +592,7 @@
         
   
   <span class="md-ellipsis">
-    TEST_SUITE_01
+    About
   </span>
   
 
@@ -882,15 +882,34 @@
                   
 
 
-<h1 id="codehilite">CodeHilite<a class="headerlink" href="#codehilite" title="Permanent link">&para;</a></h1>
+  <h1>Setup</h1>
+
+<h2 id="instuctions">Instuctions<a class="headerlink" href="#instuctions" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="https://squidfunk.github.io/mkdocs-material/extensions/codehilite/">CodeHilite - Material for MkDocs</a></li>
-<li><a href="http://pygments.org/languages">Supported languages - Pygments</a></li>
+<li>cd TEST_SUITE_05_DJANGO.</li>
+<li>creater virtual env <code>python -m venv venv</code>.</li>
+<li>pip install -r requirents.txt</li>
+<li>run <code>playwright install</code> to load in playwright browsers.</li>
+<li>in one terminal run <code>python manage.py runserver</code>.</li>
+<li>For unittests run <code>python manage.py test</code></li>
+<li>in another run <code>python -m pytest -v</code> or <code>python -m pytest -v --headed</code> if using  playwright and you want to see browsers. Sometimes this may not work so you will need to add the headless=False to the test.</li>
+<li>DB has had migrations. superuser: admin password</li>
+<li>authuser uses a Custom User model so that login defaults to email and password. This can be removed so that the User model is used. super user is <code>admin@test.com</code> and <code>password</code>.</li>
+<li>pytest-sugar added for fancier terminal output</li>
+<li>PyBoxen used for fancy console output. Examples are in the orm app.</li>
+<li>django-extensions used in orm app so that we can run scripts in a py file rather than in shell. See <code>orm/_NOTES.md</code> for more details.</li>
 </ul>
-<h2 id="configure_mkdocsyml">Configure <code>mkdocs.yml</code><a class="headerlink" href="#configure_mkdocsyml" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span><code>markdown_extensions:
-  <span class="k">-</span> codehilite
-</code></pre></div>
+<h2 id="alternative">Alternative<a class="headerlink" href="#alternative" title="Permanent link">&para;</a></h2>
+<p><em>If one is not using requirements.txt one would need to install:</em></p>
+<ul>
+<li>django</li>
+<li>django-extensions for the utuilities used in orm.</li>
+<li>pytest, pytest-django, pytest-cov.</li>
+<li>playwright for browser based testing (an then run <code>playrwight install</code> to load browsers).</li>
+<li>pytest-sugar for nicer output format of tests.</li>
+<li>pyboxen for fancy console output used in orm.</li>
+<li>requests for order app.</li>
+</ul>
 
 
 
