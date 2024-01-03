@@ -1,8 +1,7 @@
 # API Testing
 
-## About
 
-This is part of TEST_SUITE_02 which you may have installed already for Playwright testing.
+This is part of TEST_SUITE_02_API_PLAYWRIGHT which you may have installed already for Playwright testing.
 
 ## Install 
 
