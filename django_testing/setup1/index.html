@@ -8,7 +8,7 @@
       
       
       
-        <link rel="canonical" href="https://python-test-engineer.github.io/django_testing/setup/">
+        <link rel="canonical" href="https://python-test-engineer.github.io/django_testing/setup1/">
       
       
       
@@ -18,7 +18,7 @@
     
     
       
-        <title>Apps - Python Test Framework</title>
+        <title>Setup - Python Test Framework</title>
       
     
     
@@ -72,7 +72,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#apps" class="md-skip">
+        <a href="#setup" class="md-skip">
           Skip to content
         </a>
       
@@ -108,7 +108,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Apps
+              Setup
             
           </span>
         </div>
@@ -309,7 +309,7 @@
   
   
     <li class="md-nav__item">
-      <a href="." class="md-nav__link">
+      <a href="../setup" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -882,19 +882,33 @@
                   
 
 
-<h1 id="apps">Apps<a class="headerlink" href="#apps" title="Permanent link">&para;</a></h1>
-<p>A compilation of various soruces in one project.</p>
-<h2 id="accountsposts">accounts/posts<a class="headerlink" href="#accountsposts" title="Permanent link">&para;</a></h2>
-<p>Based on a TDD video series of Django by <a href="https://www.youtube.com/watch?v=B7jM6XNLTIY&amp;list=PLEt8Tae2spYlVZUBBEE9PtX-NXk_hw7o4&amp;index=1" target="_blank">Ssali Jonathan</a>, I have extended it to include a PyTest folder as well as additional Django Unit Tests.</p>
-<h2 id="orm">orm<a class="headerlink" href="#orm" title="Permanent link">&para;</a></h2>
-<p>Based on a TDD video series of Django by <a href="https://www.youtube.com/playlist?list=PL-2EBeDYMIbQXKsyNweppuFptuogJe2L-" target="_blank">BugBytes</a>, the code for the 18+ videos was not included in the repo so I have added files for each of the videos.</p>
-<p>It uses django-extensions, <a href="https://pypi.org/project/django-extensions/" target="_blank">django-extensions</a>, which offers the ability to run <code>manage.py runscript &lt;file_name_but_not_py_extension&gt;</code>, as if in a shell.</p>
-<p>Custom Commands to load data, SQL queries, transactions are also included and I have extended the code to include other useful utilities, as well as some relevant tests.</p>
-<p>I have added dditional tests from the Django Docs are also included.</p>
-<h2 id="stores">stores<a class="headerlink" href="#stores" title="Permanent link">&para;</a></h2>
-<p>Based on <a href="https://www.youtube.com/playlist?list=PLOLrQ9Pn6caxY4Q1U9RjO1bulQp5NDYS_" target="_blank">Very Academy - Ecommerce</a>, this offers variations on testing.</p>
-<h2 id="filemanager">filemanager<a class="headerlink" href="#filemanager" title="Permanent link">&para;</a></h2>
-<p>A small app concerned with file uploading and management, this offers some more examples of testing with UnitTest and PyTest.</p>
+<h1 id="setup">Setup<a class="headerlink" href="#setup" title="Permanent link">&para;</a></h1>
+<h2 id="instuctions">Instuctions<a class="headerlink" href="#instuctions" title="Permanent link">&para;</a></h2>
+<ul>
+<li>cd TEST_SUITE_05_DJANGO.</li>
+<li>creater virtual env <code>python -m venv venv</code>.</li>
+<li>pip install -r requirents.txt</li>
+<li>run <code>playwright install</code> to load in playwright browsers.</li>
+<li>in one terminal run <code>python manage.py runserver</code>.</li>
+<li>For unittests run <code>python manage.py test</code></li>
+<li>in another run <code>python -m pytest -v</code> or <code>python -m pytest -v --headed</code> if using  playwright and you want to see browsers. Sometimes this may not work so you will need to add the headless=False to the test.</li>
+<li>DB has had migrations. superuser: admin password</li>
+<li>authuser uses a Custom User model so that login defaults to email and password. This can be removed so that the User model is used. super user is <code>admin@test.com</code> and <code>password</code>.</li>
+<li>pytest-sugar added for fancier terminal output</li>
+<li>PyBoxen used for fancy console output. Examples are in the orm app.</li>
+<li>django-extensions used in orm app so that we can run scripts in a py file rather than in shell. See <code>orm/_NOTES.md</code> for more details.</li>
+</ul>
+<h2 id="alternative">Alternative<a class="headerlink" href="#alternative" title="Permanent link">&para;</a></h2>
+<p><em>If one is not using requirements.txt one would need to install:</em></p>
+<ul>
+<li>django</li>
+<li>django-extensions for the utuilities used in orm.</li>
+<li>pytest, pytest-django, pytest-cov.</li>
+<li>playwright for browser based testing (an then run <code>playrwight install</code> to load browsers).</li>
+<li>pytest-sugar for nicer output format of tests.</li>
+<li>pyboxen for fancy console output used in orm.</li>
+<li>requests for order app.</li>
+</ul>
 
 
 
