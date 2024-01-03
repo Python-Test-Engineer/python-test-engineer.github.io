@@ -36,11 +36,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://python-test-engineer.github.io/django_testing/setup1/</loc>
-         <lastmod>2024-01-03</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://python-test-engineer.github.io/django_testing/tests/</loc>
          <lastmod>2024-01-03</lastmod>
          <changefreq>daily</changefreq>
