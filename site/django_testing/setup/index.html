@@ -11,6 +11,10 @@
         <link rel="canonical" href="https://python-test-engineer.github.io/django_testing/setup/">
       
       
+        <link rel="prev" href="../..">
+      
+      
+        <link rel="next" href="../apps/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -72,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#instuctions" class="md-skip">
+        <a href="#instructions" class="md-skip">
           Skip to content
         </a>
       
@@ -248,19 +252,21 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
@@ -274,7 +280,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Django Testing
@@ -285,31 +291,28 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../about/" class="md-nav__link">
-        
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
   
   <span class="md-ellipsis">
-    Django Testing
+    Setup
   </span>
   
 
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="." class="md-nav__link">
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -318,6 +321,60 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#instructions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Instructions
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#alternative" class="md-nav__link">
+    <span class="md-ellipsis">
+      Alternative
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      References
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#todos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Todos
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -884,7 +941,7 @@
 
   <h1>Setup</h1>
 
-<h2 id="instuctions">Instuctions<a class="headerlink" href="#instuctions" title="Permanent link">&para;</a></h2>
+<h2 id="instructions">Instructions<a class="headerlink" href="#instructions" title="Permanent link">&para;</a></h2>
 <ul>
 <li>cd TEST_SUITE_05_DJANGO.</li>
 <li>creater virtual env <code>python -m venv venv</code>.</li>
@@ -909,6 +966,28 @@
 <li>pytest-sugar for nicer output format of tests.</li>
 <li>pyboxen for fancy console output used in orm.</li>
 <li>requests for order app.</li>
+</ul>
+<h2 id="references">References<a class="headerlink" href="#references" title="Permanent link">&para;</a></h2>
+<ul>
+<li>
+<p>Pybites - https://www.youtube.com/watch?v=L5jWFU2sVXQ for help with setting up PyTest tests for Django. </p>
+</li>
+<li>
+<p>Ssali Jonathan - https://www.youtube.com/watch?v=Nn3Yjea5KCI&amp;list=PLEt8Tae2spYlVZUBBEE9PtX-NXk_hw7o4 for the TDD approach to building the <code>posts</code> app. This gives a basis for many good tests. I have transported a few for demonstation purposes in <code>pytest_tests</code>. (PyTest searches for all test files with test_ or whatever is specified in the pytest.ini file in root).</p>
+</li>
+</ul>
+<h2 id="todos">Todos<a class="headerlink" href="#todos" title="Permanent link">&para;</a></h2>
+<p>These will use their own individual app to showcase them.</p>
+<ul>
+<li>
+<p>DjangoStars - https://djangostars.com/blog/django-pytest-testing/</p>
+</li>
+<li>
+<p>https://pytest-with-eric.com/pytest-advanced/pytest-django-restapi-testing/#Conftest-and-Setup</p>
+</li>
+<li>
+<p>https://dev.to/sherlockcodes/pytest-with-django-rest-framework-from-zero-to-hero-8c4</p>
+</li>
 </ul>
 
 
