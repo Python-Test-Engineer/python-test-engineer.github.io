@@ -40,9 +40,21 @@ theme:
       primary: purple
       accent: orange
 # Extensions
-plugins:
-  - search
-  - mkdocstrings
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - admonition
+  - attr_list
+  - codehilite
+  - footnotes
+  - toc:
+      permalink: true
+      separator: "_"
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+
 extra_javascript:
   - "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-MML-AM_CHTML"
 extra_css:
@@ -52,10 +64,14 @@ extra:
   social:
     - icon: "fontawesome/brands/github-alt"
       link: "https://github.com/Python-Test-Engineer/"
-      
-markdown_extensions:
-  - pymdownx.highlight
-  - pymdownx.superfences
+    # - icon: "fontawesome/brands/twitter"
+    #   link: "https://twitter.com/piris314en"
+
+
+plugins:
+  - search
+  - mkdocstrings
+
 # Page tree
 nav:
   - "Home": "index.md"
