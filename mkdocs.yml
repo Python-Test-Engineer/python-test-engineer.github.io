@@ -1,5 +1,8 @@
 site_name: Python Test Framework
-site_url: https://python-test-engineer.github.io
+site_description: "Python Test Framework"
+
+repo_url: https://github.com/Python-Test-Engineer/PYTHON-TEST-FRAMEWORK
+repo_name: Python-Test-Engineer/PYTHON-TEST-FRAMEWORK
 
 # Configuring a theme
 # theme:
@@ -38,6 +41,8 @@ theme:
       accent: orange
 # Extensions
 markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
   - admonition
   - attr_list
   - codehilite
@@ -62,10 +67,14 @@ extra:
     # - icon: "fontawesome/brands/twitter"
     #   link: "https://twitter.com/piris314en"
 
+
+plugins:
+  - search
+  - mkdocstrings
+
 # Page tree
 nav:
   - "Home": "index.md"
-
   - "PyTest":
       - "PyTest Basic": "pytest/pytest_basic.md"
       - "PyTest": "pytest/pytest.md"
