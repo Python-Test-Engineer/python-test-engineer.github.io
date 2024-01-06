@@ -4,45 +4,26 @@ site_description: "Python Test Framework"
 repo_url: https://github.com/Python-Test-Engineer/PYTHON-TEST-FRAMEWORK
 repo_name: Python-Test-Engineer/PYTHON-TEST-FRAMEWORK
 
-# Configuring a theme
-# theme:
-#   name: material
-#   features:
-# - navigation.tabs
-# - navigation.sections
-
-# Configuring a theme
 theme:
-  name: material
-  features:
-    # - navigation.tabs
-    # - navigation.sections
-    - toc.integrate
-    - navigation.top
-    - search.suggest
-    - search.highlight
-    - content.tabs.link
-    - content.code.annotation
-    - content.code.copy
-  language: en
+  icon:
+    repo: fontawesome/brands/github
+  name: "material"
   palette:
-    - scheme: default
+    - media: "(prefers-color-scheme: light)"
+      primary: "blue"
+      accent: "grey"
+      scheme: default
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
-
-      primary: purple
-      accent: purple
-    - scheme: slate
+    - media: "(prefers-color-scheme: dark)"
+      primary: "blue"
+      accent: "white"
+      scheme: slate
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-      primary: purple
-      accent: orange
-# Extensions
-plugins:
-  - search
-  - mkdocstrings
+
 extra_javascript:
   - "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-MML-AM_CHTML"
 extra_css:
@@ -52,34 +33,36 @@ extra:
   social:
     - icon: "fontawesome/brands/github-alt"
       link: "https://github.com/Python-Test-Engineer/"
-      
+
+plugins:
+  - search
+  - mkdocstrings
+
 markdown_extensions:
   - pymdownx.highlight
   - pymdownx.superfences
+
+
 # Page tree
 nav:
   - "Home": "index.md"
+
+  - "Django Testing":
+      - "Setup": "django_testing/setup"
+      - "Apps": "django_testing/apps.md"
+      - "Tests": "django_testing/tests.md"
   - "PyTest":
       - "PyTest Basic": "pytest/pytest_basic.md"
       - "PyTest": "pytest/pytest.md"
   - "Playwright Testing":
-      - "About": "playwright_api/playwright.md"
+      - "Playwright": "playwright_api/playwright.md"
       - "Testing Playgrounds": "playwright_api/testing_playgrounds.md"
   - "API Testing":
-      - "About": "api_testing/api.md"
-      - "Testing Playgrounds": "playwright_api/testing_playgrounds.md"
-  - "Django Testing":
-      - "Setup": "django_testing/setup.md"
-      - "Apps": "django_testing/apps.md"
-      - "Tests": "django_testing/tests.md"
+      - "About": "playwright_api/api.md"
   - "Hypothesis":
-      - "Property based testing": "hypothesis/hypothesis.md"
-  - "Resources":
-      - "Books": "resources/books.md"
-      - "Articles": "resources/articles.md"
-      - "Videos": "resources/videos.md"
-  - "Craig West":
-      - "About Craig": "craig/craig.md"
+      - "About Hypothesis": "hypothesis/index.md"
+  - "About Craig":
+      - "craig/index.md"
 
 copyright: |
   &copy; 2024 <a href="https://github.com/Python-Test-Engineer"  target="_blank" rel="noopener">Craig West - PythonTestEngineer.co.uk</a>
