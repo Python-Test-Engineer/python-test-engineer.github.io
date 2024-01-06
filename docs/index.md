@@ -17,9 +17,9 @@ I have collated these into their appropriate test suites so that they run out of
 
 ## Installation
 
-- Download the main repo and navigate to required TEST_SUITE. The Github repo for all these TEST_SUITES is [here](https://github.com/Python-Test-Engineer/PYTHON-TEST-FRAMEWORK){:target="_blank"}.
+- Download the main repo and navigate to required TEST_SUITE. The Github repo for all these TEST_SUITES is [here](https://github.com/Python-Test-Engineer/PYTHON-TEST-FRAMEWORK){target="_blank"}.
 - Follow install instructions in README.md file of test suite.
 
 ## YouTube Videos
 
-These are available [here](https://www.youtube.com/playlist?list=PLsszRSbzjyvkincV5XUzF9BeGsckrjb74){:target="_blank"}.
+These are available [here](https://www.youtube.com/playlist?list=PLsszRSbzjyvkincV5XUzF9BeGsckrjb74){target="_blank"}.

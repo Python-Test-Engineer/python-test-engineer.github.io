@@ -41,6 +41,17 @@ plugins:
 markdown_extensions:
   - pymdownx.highlight
   - pymdownx.superfences
+  - admonition
+  - attr_list
+  - codehilite
+  - footnotes
+  - toc:
+      permalink: true
+      separator: "_"
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
 
 
 # Page tree
