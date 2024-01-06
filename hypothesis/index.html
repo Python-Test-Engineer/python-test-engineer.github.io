@@ -11,23 +11,25 @@
       
       
       
+        <link rel="prev" href="../playwright_api/api/">
       
-        <link rel="next" href="django_testing/apps/">
+      
+        <link rel="next" href="../craig/">
       
       
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.3">
     
     
       
-        <title>Python Test Framework</title>
+        <title>About Hypothesis - Python Test Framework</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.50c56a3b.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.50c56a3b.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -46,11 +48,11 @@
       
     
     
-      <link rel="stylesheet" href="assets/_mkdocstrings.css">
+      <link rel="stylesheet" href="../assets/_mkdocstrings.css">
     
-      <link rel="stylesheet" href="assets/css/custom.css">
+      <link rel="stylesheet" href="../assets/css/custom.css">
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -76,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#purpose" class="md-skip">
+        <a href="#commands" class="md-skip">
           Skip to content
         </a>
       
@@ -92,7 +94,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="Python Test Framework" class="md-header__button md-logo" aria-label="Python Test Framework" data-md-component="logo">
+    <a href=".." title="Python Test Framework" class="md-header__button md-logo" aria-label="Python Test Framework" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -112,7 +114,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Home
+              About Hypothesis
             
           </span>
         </div>
@@ -225,7 +227,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="Python Test Framework" class="md-nav__button md-logo" aria-label="Python Test Framework" data-md-component="logo">
+    <a href=".." title="Python Test Framework" class="md-nav__button md-logo" aria-label="Python Test Framework" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -252,28 +254,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Home
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -282,60 +266,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#purpose" class="md-nav__link">
-    <span class="md-ellipsis">
-      Purpose
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#test-suites" class="md-nav__link">
-    <span class="md-ellipsis">
-      Test Suites
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#installation" class="md-nav__link">
-    <span class="md-ellipsis">
-      Installation
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#youtube-videos" class="md-nav__link">
-    <span class="md-ellipsis">
-      YouTube Videos
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -384,7 +314,7 @@
   
   
     <li class="md-nav__item">
-      <a href="django_testing/setup" class="md-nav__link">
+      <a href="../django_testing/setup" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -405,7 +335,7 @@
   
   
     <li class="md-nav__item">
-      <a href="django_testing/apps/" class="md-nav__link">
+      <a href="../django_testing/apps/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -426,7 +356,7 @@
   
   
     <li class="md-nav__item">
-      <a href="django_testing/tests/" class="md-nav__link">
+      <a href="../django_testing/tests/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -491,7 +421,7 @@
   
   
     <li class="md-nav__item">
-      <a href="pytest/pytest_basic/" class="md-nav__link">
+      <a href="../pytest/pytest_basic/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -512,7 +442,7 @@
   
   
     <li class="md-nav__item">
-      <a href="pytest/pytest/" class="md-nav__link">
+      <a href="../pytest/pytest/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -577,7 +507,7 @@
   
   
     <li class="md-nav__item">
-      <a href="playwright_api/playwright/" class="md-nav__link">
+      <a href="../playwright_api/playwright/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -598,7 +528,7 @@
   
   
     <li class="md-nav__item">
-      <a href="playwright_api/testing_playgrounds/" class="md-nav__link">
+      <a href="../playwright_api/testing_playgrounds/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -663,7 +593,7 @@
   
   
     <li class="md-nav__item">
-      <a href="playwright_api/api/" class="md-nav__link">
+      <a href="../playwright_api/api/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -688,19 +618,21 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
         
           
           <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
@@ -714,7 +646,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
             Hypothesis
@@ -725,10 +657,28 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="hypothesis/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    About Hypothesis
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -737,6 +687,60 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#commands" class="md-nav__link">
+    <span class="md-ellipsis">
+      Commands
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bash" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bash
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#syntax-highlighting-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      Syntax highlighting Example
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sample-layout" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sample layout
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -793,7 +797,7 @@
   
   
     <li class="md-nav__item">
-      <a href="craig/" class="md-nav__link">
+      <a href="../craig/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -839,36 +843,36 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#purpose" class="md-nav__link">
+  <a href="#commands" class="md-nav__link">
     <span class="md-ellipsis">
-      Purpose
+      Commands
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#test-suites" class="md-nav__link">
+  <a href="#bash" class="md-nav__link">
     <span class="md-ellipsis">
-      Test Suites
+      Bash
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#installation" class="md-nav__link">
+  <a href="#syntax-highlighting-example" class="md-nav__link">
     <span class="md-ellipsis">
-      Installation
+      Syntax highlighting Example
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#youtube-videos" class="md-nav__link">
+  <a href="#sample-layout" class="md-nav__link">
     <span class="md-ellipsis">
-      YouTube Videos
+      Sample layout
     </span>
   </a>
   
@@ -892,28 +896,66 @@
   
 
 
-  <h1>Home</h1>
+  <h1>About Hypothesis</h1>
 
-<h2 id="purpose">Purpose</h2>
-<p>A set of 'one click install' test suites with increasing functionality, comprising templates, resources and YouTube videos.</p>
-<p>I have collated these into their appropriate test suites so that they run out of the box. With highly commented code and reference links, it will enable developers/testers to use and learn about testing.</p>
-<h2 id="test-suites">Test Suites</h2>
+<p>Hypothesis Testing</p>
+<h2 id="commands">Commands</h2>
 <ul>
-<li>TEST_SUITE_00_MINIMAL - a basic src folder wired to PyTest with custom logging and pytest-sugar console formating.#</li>
-<li>TEST_SUITE_01_PYTEST - as above but with a large number of ready made test templates demoing how to use PyTest along with templates for Mocking and Patching.</li>
-<li>TEST_SUITE_02_API_PLAYWRIGHT - as above with API testing and Playwright e2e/functional testing.</li>
-<li>TEST_SUITE_03_BDD - as above with Behavior Driven testing that enables the use of native English test requirement files to be wired to PyTest and Behave Framework. BDD enables all stakeholders to work on these 'feature' test files in plain English which are then translated to Python test code.</li>
-<li>TEST_SUITE_04_DATA_PIPELINES - is a standalone test suite for data transofrmation services based on Pydantic V2 to create strongly typed and validated classes for serialization/deserialization.</li>
-<li>TEST_SUITE__05_DJANGO is its own unique testing suite built from a range of sources.</li>
-<li>TEST_SUITE_06_HYPOTHESIS is a standalone property based test suite that can provide templates and resources on how to use property based testing.</li>
+<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
+<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
+<li><code>mkdocs build</code> - Build the documentation site.</li>
+<li><code>mkdocs -h</code> - Print help message and exit.</li>
 </ul>
-<h2 id="installation">Installation</h2>
-<ul>
-<li>Download the main repo and navigate to required TEST_SUITE. The Github repo for all these TEST_SUITES is <a href="https://github.com/Python-Test-Engineer/PYTHON-TEST-FRAMEWORK">here</a>{:target="_blank"}.</li>
-<li>Follow install instructions in README.md file of test suite.</li>
-</ul>
-<h2 id="youtube-videos">YouTube Videos</h2>
-<p>These are available <a href="https://www.youtube.com/playlist?list=PLsszRSbzjyvkincV5XUzF9BeGsckrjb74">here</a>{:target="_blank"}.</p>
+<p>!!! info<br />
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+massa, nec semper lorem quam in massa.</p>
+<h2 id="bash">Bash</h2>
+<div class="highlight"><pre><span></span><code><span class="c1"># Minimal makefile for Sphinx documentation</span>
+<span class="c1">#</span>
+
+<span class="c1"># You can set these variables from the command line, and also</span>
+<span class="c1"># from the environment for the first two.</span>
+SPHINXOPTS<span class="w">    </span>?<span class="o">=</span>
+SPHINXBUILD<span class="w">   </span>?<span class="o">=</span><span class="w"> </span>sphinx-build
+<span class="nv">SOURCEDIR</span><span class="w">     </span><span class="o">=</span><span class="w"> </span><span class="nb">source</span>
+<span class="nv">BUILDDIR</span><span class="w">      </span><span class="o">=</span><span class="w"> </span>build
+
+<span class="c1"># Put it first so that &quot;make&quot; without argument is like &quot;make help&quot;.</span>
+help:
+<span class="w">    </span>@<span class="k">$(</span>SPHINXBUILD<span class="k">)</span><span class="w"> </span>-M<span class="w"> </span><span class="nb">help</span><span class="w"> </span><span class="s2">&quot;</span><span class="k">$(</span>SOURCEDIR<span class="k">)</span><span class="s2">&quot;</span><span class="w"> </span><span class="s2">&quot;</span><span class="k">$(</span>BUILDDIR<span class="k">)</span><span class="s2">&quot;</span><span class="w"> </span><span class="k">$(</span>SPHINXOPTS<span class="k">)</span><span class="w"> </span><span class="k">$(</span>O<span class="k">)</span>
+
+.PHONY:<span class="w"> </span><span class="nb">help</span><span class="w"> </span>Makefile
+
+<span class="c1"># Catch-all target: route all unknown targets to Sphinx using the new</span>
+<span class="c1"># &quot;make mode&quot; option.  $(O) is meant as a shortcut for $(SPHINXOPTS).</span>
+%:<span class="w"> </span>Makefile
+<span class="w">    </span>@<span class="k">$(</span>SPHINXBUILD<span class="k">)</span><span class="w"> </span>-M<span class="w"> </span><span class="nv">$@</span><span class="w"> </span><span class="s2">&quot;</span><span class="k">$(</span>SOURCEDIR<span class="k">)</span><span class="s2">&quot;</span><span class="w"> </span><span class="s2">&quot;</span><span class="k">$(</span>BUILDDIR<span class="k">)</span><span class="s2">&quot;</span><span class="w"> </span><span class="k">$(</span>SPHINXOPTS<span class="k">)</span><span class="w"> </span><span class="k">$(</span>O<span class="k">)</span>
+</code></pre></div>
+<h2 id="syntax-highlighting-example">Syntax highlighting Example</h2>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">flask</span>
+<span class="kn">import</span> <span class="nn">flask_saml</span>
+
+<span class="n">app</span> <span class="o">=</span> <span class="n">flask</span><span class="o">.</span><span class="n">Flask</span><span class="p">(</span><span class="vm">__name__</span><span class="p">)</span>
+
+<span class="n">app</span><span class="o">.</span><span class="n">config</span><span class="o">.</span><span class="n">update</span><span class="p">({</span>
+    <span class="s1">&#39;SECRET_KEY&#39;</span><span class="p">:</span> <span class="s1">&#39;soverysecret&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;SAML_METADATA_URL&#39;</span><span class="p">:</span> <span class="s1">&#39;https://mymetadata.xml&#39;</span><span class="p">,</span>
+<span class="p">})</span>
+<span class="n">flask_saml</span><span class="o">.</span><span class="n">FlaskSAML</span><span class="p">(</span><span class="n">app</span><span class="p">)</span>
+</code></pre></div>
+<h2 id="sample-layout">Sample layout</h2>
+<div class="highlight"><pre><span></span><code>├──<span class="w"> </span>docs
+│<span class="w">   </span>├──<span class="w"> </span>about.md
+│<span class="w">   </span>└──<span class="w"> </span>index.md
+├──<span class="w"> </span>mkdocs.yml
+└──<span class="w"> </span>site
+<span class="w">    </span>├──<span class="w"> </span><span class="m">404</span>.html
+<span class="w">    </span>├──<span class="w"> </span>about
+<span class="w">    </span>│<span class="w">   </span>└──<span class="w"> </span>search_index.json
+<span class="w">    </span>├──<span class="w"> </span>sitemap.xml
+<span class="w">    </span>└──<span class="w"> </span>sitemap.xml.gz
+</code></pre></div>
 
 
 
@@ -980,10 +1022,10 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="assets/javascripts/bundle.d7c377c4.min.js"></script>
+      <script src="../assets/javascripts/bundle.d7c377c4.min.js"></script>
       
         <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-MML-AM_CHTML"></script>
       
