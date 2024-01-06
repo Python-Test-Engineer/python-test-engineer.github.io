@@ -14,6 +14,11 @@
 - 📫 mrcraigwest@hotmail.com
 - 🖥️ https://www.youtube.com/@iwswordpress/featured
 
+## Currently: Working with ML/AI for US National Institutes of Health
+
+- Machine Learning for survial outcome in Child Rhabdomyosarcoma Cancer based on genetic sequence.
+- RAG, retrieval augmented generation, for PubMed article repository. Creating a custom domain 'ChatGPT' using Django.
+
 ## Currently...
 
 I am developing a collated resource for Python Testing along with a range of test Suites with 'one click' set up. [https://github.com/iwswordpress/generic-pytest-playwright-pytest-bdd-framework](https://github.com/Python-Test-Engineer/PYTHON-TEST-FRAMEWORK)
