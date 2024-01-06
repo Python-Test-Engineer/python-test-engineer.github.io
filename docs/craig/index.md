@@ -81,10 +81,10 @@ These are video courses that cover work through official documents to help other
 
 There are also some specific videos explaining solutions to set ups other developers may encounter.
 
-- :heavy_check_mark: HIGHLY-FUNCTIONAL-WEBCOMPONENTS: A video course based on the workshop I gave at NDC Oslo June 2020 - [DEMO](https://www.youtube.com/watch?v=QC-JTqQTv2k&list=PLsszRSbzjyvkQwzrJobroRl7z7MfSlePa_).
+- HIGHLY-FUNCTIONAL-WEBCOMPONENTS: A video course based on the workshop I gave at NDC Oslo June 2020 - [DEMO](https://www.youtube.com/watch?v=QC-JTqQTv2k&list=PLsszRSbzjyvkQwzrJobroRl7z7MfSlePa_).
 
-- :heavy_check_mark: WP Plugin Boilerplate:  I havea video series to explain WP Plugin Boilerplate using a scaffolded out project that demonstrates the use of MySQL, wp_nonce, REST API, forms and how to redirect pages to plugin templates to make the plugin theme independent. [DEMO](https://www.youtube.com/watch?v=lJ9ktD4JOfs&list=PLsszRSbzjyvn-RQr4dEjrgnTne2HcJKee).
-- :heavy_check_mark: WP Plugin Boilerplate:  I havea video series to explain WP Plugin Boilerplate using a scaffolded out project that demonstrates the use of MySQL, wp_nonce, REST API, forms and how to redirect pages to plugin templates to make the plugin theme independent. [DEMO](https://www.youtube.com/watch?v=lJ9ktD4JOfs&list=PLsszRSbzjyvn-RQr4dEjrgnTne2HcJKee).
+- WP Plugin Boilerplate:  I havea video series to explain WP Plugin Boilerplate using a scaffolded out project that demonstrates the use of MySQL, wp_nonce, REST API, forms and how to redirect pages to plugin templates to make the plugin theme independent. [DEMO](https://www.youtube.com/watch?v=lJ9ktD4JOfs&list=PLsszRSbzjyvn-RQr4dEjrgnTne2HcJKee).
+- WP Plugin Boilerplate:  I havea video series to explain WP Plugin Boilerplate using a scaffolded out project that demonstrates the use of MySQL, wp_nonce, REST API, forms and how to redirect pages to plugin templates to make the plugin theme independent. [DEMO](https://www.youtube.com/watch?v=lJ9ktD4JOfs&list=PLsszRSbzjyvn-RQr4dEjrgnTne2HcJKee).
 
 ### Volounteering
 
