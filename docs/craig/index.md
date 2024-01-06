@@ -64,7 +64,8 @@ A list of talks and workshops I have given:
 
 - TALK: Decoupled WordPress and WP Components - WordCamp Brighton August 2019.
 
-###  Published Udemy Courses
+### Published Udemy Courses
+
 Udemy is a great learning platform and having sales at least once a month, courses can be purchased for ~ £15/$15 USD.
 
 These have now been retired.
