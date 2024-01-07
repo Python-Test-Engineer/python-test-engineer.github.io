@@ -59,7 +59,7 @@ nav:
   - "Home": "index.md"
 
   - "Django Testing":
-      - "Setup": "django_testing/setup"
+      - "Setup": "django_testing/setup.md"
       - "Apps": "django_testing/apps.md"
       - "Tests": "django_testing/tests.md"
   - "PyTest":
