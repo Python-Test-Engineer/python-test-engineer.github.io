@@ -8,7 +8,7 @@ Based on a TDD video series of Django by [Ssali Jonathan](https://www.youtube.co
 
 ## orm
 
-Based on a TDD video series of Django by [BugBytes](https://www.youtube.com/playlist?list=PL-2EBeDYMIbQXKsyNweppuFptuogJe2L-){:target="_blank"}, the code for the 18+ videos was not included in the repo so I have added files for each of the videos.
+Based on an ORM Deep Dive series by [BugBytes](https://www.youtube.com/playlist?list=PL-2EBeDYMIbQXKsyNweppuFptuogJe2L-){:target="_blank"}, the code for the 18+ videos was not included in the repo so I have added files for each of the videos. I have also included some of my own ORM scripts as well as others from  [Very Academy](https://www.youtube.com/c/veryacademy){:target="_blank"}.
 
 It uses django-extensions, [django-extensions](https://pypi.org/project/django-extensions/){:target="_blank"}, which offers the ability to run `manage.py runscript <file_name_but_not_py_extension>`, as if in a shell.
 
