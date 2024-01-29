@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<<<<<<< HEAD
     <url>
          <loc>https://python-test-engineer.github.io/</loc>
          <lastmod>2024-01-29</lastmod>
@@ -75,4 +76,6 @@
          <lastmod>2024-01-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
+=======
+>>>>>>> 457cf049990943d5fc26e39adfac5d95e27aa66a
 </urlset>
